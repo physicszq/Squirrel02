@@ -1,0 +1,2656 @@
+-- sql #0
+-- data: 0 174 0 ; level: 0
+create table t_cnt0yv2e ( 
+c_ek2mf6b948 int not null ,
+c_w3i text not null ,
+c_kgvz13t double ,
+c_bjs3xa text ,
+c_p tinyint ,
+c_mdutdedtjq tinyint ,
+c_g double ,
+c_r28b0m4p text ,
+c_e4d55avvc int ,
+c_y0092 int not null ,
+primary key(c_e4d55avvc),
+unique(c_ek2mf6b948, c_p)
+);
+
+-- sql #1
+-- data: 174 1208 0 ; level: 36
+select  
+    ltrim(
+      cast(ref_0.c_bjs3xa as char)) as c0
+  from 
+    t_cnt0yv2e as ref_0
+  where (quote(
+      cast((select c_w3i from t_cnt0yv2e order by c_w3i limit 1 offset 3)
+         as char)) in (
+    select  
+        case when (((ref_2.c_e4d55avvc in (
+                  ref_2.c_ek2mf6b948, ref_2.c_ek2mf6b948))) 
+                or ((((ref_1.c_r28b0m4p in (
+                        select  
+                            ref_3.c_w3i as c0
+                          from 
+                            t_cnt0yv2e as ref_3
+                          where (1612771285 > (ref_3.c_p not in (
+                                select  
+                                      1=1 as c0
+                                    from 
+                                      t_cnt0yv2e as ref_4
+                                    where (ref_4.c_e4d55avvc > ( 
+                                      select  
+                                            ref_5.c_e4d55avvc as c0
+                                          from 
+                                            t_cnt0yv2e as ref_5
+                                          where (EXISTS (
+                                            select  
+                                                ref_4.c_e4d55avvc as c0, 
+                                                ref_6.c_r28b0m4p as c1, 
+                                                ref_6.c_ek2mf6b948 as c2, 
+                                                ref_6.c_g as c3, 
+                                                ref_6.c_p as c4, 
+                                                ref_6.c_y0092 as c5, 
+                                                ref_4.c_r28b0m4p as c6, 
+                                                ref_6.c_bjs3xa as c7, 
+                                                ref_6.c_mdutdedtjq as c8, 
+                                                ref_4.c_bjs3xa as c9, 
+                                                ref_4.c_e4d55avvc as c10, 
+                                                ref_4.c_p as c11
+                                              from 
+                                                t_cnt0yv2e as ref_6
+                                              where ('_9gz_' <= ref_5.c_w3i)))
+                                        union
+                                        select  
+                                            ref_4.c_y0092 as c0
+                                          from 
+                                            t_cnt0yv2e as ref_7
+                                          where (ref_7.c_e4d55avvc between ref_7.c_ek2mf6b948 and ref_7.c_e4d55avvc)
+                                         limit 1))
+                                  union
+                                  select  
+                                      1=1 as c0
+                                    from 
+                                      t_cnt0yv2e as ref_8
+                                    where (1=1) 
+                                      and ((ref_8.c_p <= ( 
+                                        select  
+                                              (ref_8.c_p >= ( 
+                                                select  
+                                                    (1572960129 = ref_8.c_e4d55avvc) as c0
+                                                  from 
+                                                    t_cnt0yv2e as ref_11
+                                                  where 1=1 limit 1)) as c0
+                                            from 
+                                              t_cnt0yv2e as ref_9
+                                            where (ref_8.c_w3i not in (
+                                              select distinct 
+                                                  ref_10.c_w3i as c0
+                                                from 
+                                                  t_cnt0yv2e as ref_10
+                                                where (cast(null as char) <> ref_10.c_bjs3xa)))
+                                          union
+                                          select  
+                                              (425804934 || 1442321489) as c0
+                                            from 
+                                              t_cnt0yv2e as ref_12
+                                            where ((2057149144 > 33.94)) 
+                                              and (((EXISTS (
+                                                  select  
+                                                      ref_13.c_mdutdedtjq as c0, 
+                                                      ref_13.c_w3i as c1
+                                                    from 
+                                                      t_cnt0yv2e as ref_13
+                                                    where (((ref_12.c_y0092 = ( 
+                                                            select  
+                                                                ref_14.c_y0092 as c0
+                                                              from 
+                                                                t_cnt0yv2e as ref_14
+                                                              where (ref_12.c_g = ('ugdvkrv228' < 'zbgs9v')) limit 1)) XOR 2007383133)) 
+                                                      or (0<>0)))) 
+                                                and (1=1))
+                                           limit 1)))))))) < ((ref_1.c_ek2mf6b948 between ref_1.c_y0092 and ref_1.c_ek2mf6b948)) 
+                        or (1=1))) 
+                  or ((ref_1.c_e4d55avvc between ref_2.c_y0092 and ref_2.c_y0092))) = 844602073) then ref_1.c_bjs3xa else ref_2.c_w3i end
+           as c0
+      from 
+        (t_cnt0yv2e as ref_1
+          left outer join t_cnt0yv2e as ref_2
+          on ((716677327 <=> (('ftad' <=> 'aw')) 
+                  and (0<>0))))
+      where (1882040222 > 103653611)))
+union
+select  
+    ref_15.c_bjs3xa as c0
+  from 
+    t_cnt0yv2e as ref_15
+  where (EXISTS (
+    select  
+        subq_0.c0 as c0, 
+        subq_0.c0 as c1, 
+        cast(nullif(
+          ref_15.c_p, 
+          (ref_15.c_r28b0m4p not like 'd2z_q_')
+          ) as unsigned) as c2
+      from 
+        (select  
+              ref_16.c_ek2mf6b948 as c0
+            from 
+              t_cnt0yv2e as ref_16
+            where ((ref_15.c_y0092 is NULL)) 
+              and ((ref_15.c_ek2mf6b948 <> 1902430694)) limit 100) as subq_0
+      where (ref_15.c_r28b0m4p not like '%9c50_7d6_')))
+ limit 5;
+
+-- sql #2
+-- data: 1210 1220 0 ; level: 2
+create unique index t_e56_idx_1 on t_cnt0yv2e (c_ek2mf6b948, c_kgvz13t, c_p, c_mdutdedtjq, c_g, c_e4d55avvc, c_y0092);
+
+-- sql #3
+-- data: 1220 1272 0 ; level: 4
+delete from t_cnt0yv2e
+where 
+(1415102009 < t_cnt0yv2e.c_g);
+
+-- sql #4
+-- data: 1272 5143 0 ; level: 19
+WITH 
+cte_0 AS (select  
+    count(*) as c0, 
+    ref_0.c_p as c1, 
+    count(*) as c2, 
+    sum(
+    cast(ref_0.c_e4d55avvc as signed)) as c3, 
+    sum(
+    cast(case when (1156456524 <=> ref_0.c_kgvz13t) then ref_0.c_e4d55avvc else ref_0.c_ek2mf6b948 end
+       as signed)) as c4, 
+    avg(
+    cast(case when (ref_0.c_ek2mf6b948 between (select c_ek2mf6b948 from t_cnt0yv2e order by c_ek2mf6b948 limit 1 offset 6)
+           and cast(coalesce(
+          ref_0.c_y0092, 
+          (select c_ek2mf6b948 from t_cnt0yv2e order by c_ek2mf6b948 limit 1 offset 5)
+            
+          ) as signed)) then ref_0.c_e4d55avvc else (round(
+          cast(ref_0.c_kgvz13t as double)) << (92.88 DIV ref_0.c_kgvz13t)) end
+       as signed)) as c5
+  from 
+    t_cnt0yv2e as ref_0
+  where (case when (ref_0.c_mdutdedtjq not in (
+          select  
+                1=1 as c0
+              from 
+                t_cnt0yv2e as ref_1
+              where (ref_1.c_mdutdedtjq >= ( 
+                select  
+                      (0<>0) 
+                        and ((ref_2.c_g in (
+                          select  
+                                ref_3.c_kgvz13t as c0
+                              from 
+                                t_cnt0yv2e as ref_3
+                              where 1=1
+                            union
+                            select  
+                                ref_4.c_g as c0
+                              from 
+                                t_cnt0yv2e as ref_4
+                              where (ref_4.c_bjs3xa like '_e')))) as c0
+                    from 
+                      t_cnt0yv2e as ref_2
+                    where (ref_2.c_e4d55avvc between ref_2.c_ek2mf6b948 and ref_1.c_y0092)
+                  union
+                  select  
+                      ('u22bu_k' like 'vph7%bz') as c0
+                    from 
+                      t_cnt0yv2e as ref_5
+                    where (1448663271 XOR 1032205928)
+                   limit 1))
+            union
+            select  
+                (ref_6.c_ek2mf6b948 between ref_6.c_ek2mf6b948 and ref_6.c_e4d55avvc) as c0
+              from 
+                t_cnt0yv2e as ref_6
+              where (ref_6.c_g is NULL)
+             limit 2)) then 1684294573 else 83246337 end
+         <> 1384674714)
+  group by ref_0.c_p), 
+cte_1 AS (select  
+    count(
+    cast((select c_w3i from t_cnt0yv2e order by c_w3i limit 1 offset 1)
+       as char)) as c0, 
+    count(
+    cast(cast(null as char) as char)) as c1, 
+    ref_17.c_mdutdedtjq as c2, 
+    count(
+    cast(ref_17.c_ek2mf6b948 as signed)) as c3, 
+    count(
+    cast(ref_17.c_bjs3xa as char)) as c4, 
+    max(
+    cast((select sum(c_kgvz13t) from t_cnt0yv2e)
+       as double)) as c5, 
+    min(
+    cast((select c_ek2mf6b948 from t_cnt0yv2e order by c_ek2mf6b948 limit 1 offset 4)
+       as signed)) as c6, 
+    count(
+    cast(ref_17.c_kgvz13t as double)) as c7, 
+    count(
+    cast(ref_17.c_kgvz13t as double)) as c8
+  from 
+    t_cnt0yv2e as ref_17
+  where (length(
+      cast(lower(
+        cast((select count(c_ek2mf6b948) from t_cnt0yv2e)
+           as char)) as char)) in (
+    cast(null as signed), 1281288890))
+  group by ref_17.c_mdutdedtjq limit 110), 
+cte_2 AS (select distinct 
+    ref_18.c_w3i as c0, 
+    avg(
+    cast(ref_18.c_y0092 as signed)) as c1, 
+    max(
+    cast(ref_18.c_kgvz13t as double)) as c2, 
+    count(
+    cast(ref_18.c_kgvz13t as double)) as c3, 
+    count(
+    cast((select max(c_ek2mf6b948) from t_cnt0yv2e)
+       as signed)) as c4, 
+    min(
+    cast(ref_18.c_g as double)) as c5
+  from 
+    (t_cnt0yv2e as ref_18
+      left outer join (select  
+            ref_19.c_w3i as c0
+          from 
+            t_cnt0yv2e as ref_19
+          where (ref_19.c_w3i = ( 
+            select distinct 
+                ref_20.c_bjs3xa as c0
+              from 
+                t_cnt0yv2e as ref_20
+              where (EXISTS (
+                select  
+                    ref_21.c_ek2mf6b948 as c0, 
+                    ref_21.c_g as c1, 
+                    ref_21.c_r28b0m4p as c2, 
+                    ref_21.c_y0092 as c3, 
+                    ref_21.c_w3i as c4
+                  from 
+                    t_cnt0yv2e as ref_21
+                  where (ref_21.c_bjs3xa not in (
+                    select  
+                          ref_22.c_r28b0m4p as c0
+                        from 
+                          t_cnt0yv2e as ref_22
+                        where (ref_22.c_y0092 between ref_22.c_y0092 and ref_22.c_e4d55avvc)
+                      union all
+                      select  
+                          ref_23.c_w3i as c0
+                        from 
+                          t_cnt0yv2e as ref_23
+                        where (EXISTS (
+                          select  
+                              ref_24.c_g as c0, 
+                              ref_24.c_kgvz13t as c1, 
+                              ref_24.c_mdutdedtjq as c2, 
+                              ref_24.c_bjs3xa as c3, 
+                              ref_24.c_g as c4, 
+                              523239759 as c5, 
+                              ref_24.c_p as c6, 
+                              ref_24.c_e4d55avvc as c7
+                            from 
+                              t_cnt0yv2e as ref_24
+                            where (ref_24.c_kgvz13t in (
+                              ref_24.c_g, ref_24.c_g)))))) limit 62)) limit 1))) as subq_0
+      on (((subq_0.c0 not like '%')) 
+          or ((subq_0.c0 <> ( 
+            select  
+                (select c_w3i from t_cnt0yv2e order by c_w3i limit 1 offset 1)
+                   as c0
+              from 
+                t_cnt0yv2e as ref_25
+              where ('kuv' not like '%y') limit 1)))))
+  where ((ref_18.c_ek2mf6b948 between ref_18.c_y0092 and case when (ref_18.c_kgvz13t != (EXISTS (
+              select  
+                  ref_26.c_ek2mf6b948 as c0, 
+                  ref_26.c_y0092 as c1
+                from 
+                  t_cnt0yv2e as ref_26
+                where (EXISTS (
+                  select  
+                      ref_27.c_bjs3xa as c0, 
+                      1600261227 as c1, 
+                      ref_18.c_ek2mf6b948 as c2, 
+                      ref_27.c_w3i as c3, 
+                      subq_0.c0 as c4, 
+                      ref_27.c_bjs3xa as c5, 
+                      ref_27.c_e4d55avvc as c6
+                    from 
+                      t_cnt0yv2e as ref_27
+                    where 0<>0)) limit 65))) then case when (ref_18.c_mdutdedtjq not in (
+            select  
+                ((ref_28.c_ek2mf6b948 >= ( 
+                    select  
+                          ref_28.c_ek2mf6b948 as c0
+                        from 
+                          t_cnt0yv2e as ref_30
+                        where (ref_28.c_g < ( 
+                          select  
+                                ref_31.c_kgvz13t as c0
+                              from 
+                                t_cnt0yv2e as ref_31
+                              where 0<>0
+                            union all
+                            select  
+                                ref_32.c_g as c0
+                              from 
+                                t_cnt0yv2e as ref_32
+                              where 1=1
+                             limit 1))
+                      union
+                      select  
+                          ref_28.c_y0092 as c0
+                        from 
+                          t_cnt0yv2e as ref_33
+                        where 0<>0
+                       limit 1))) 
+                  or (((ref_28.c_w3i not like 'y%eayzn%m9') >= ref_28.c_kgvz13t)) as c0
+              from 
+                t_cnt0yv2e as ref_28
+              where (ref_28.c_bjs3xa <= ( 
+                select  
+                    ref_29.c_w3i as c0
+                  from 
+                    t_cnt0yv2e as ref_29
+                  where (ref_29.c_kgvz13t is not NULL) limit 1)))) then ref_18.c_ek2mf6b948 else ref_18.c_y0092 end
+           else ref_18.c_y0092 end
+        )) 
+    or (((ref_18.c_e4d55avvc between case when (EXISTS (
+              select  
+                  ref_18.c_kgvz13t as c0, 
+                  ref_34.c_e4d55avvc as c1, 
+                  ref_34.c_kgvz13t as c2, 
+                  ref_18.c_p as c3
+                from 
+                  t_cnt0yv2e as ref_34
+                where (ref_34.c_e4d55avvc between ref_18.c_e4d55avvc and ref_18.c_ek2mf6b948))) then ref_18.c_e4d55avvc else ref_18.c_y0092 end
+             and ref_18.c_ek2mf6b948) && 74.46))
+  group by ref_18.c_w3i), 
+cte_3 AS (select  
+    count(
+    cast(1879584310 as signed)) as c0, 
+    min(
+    cast(abs(
+      cast(1930313438 as signed)) as signed)) as c1, 
+    subq_1.c3 as c2, 
+    count(*) as c3
+  from 
+    (select  
+          ref_35.c_mdutdedtjq as c0, 
+          ref_35.c_mdutdedtjq as c1, 
+          case when (ref_35.c_ek2mf6b948 between ref_35.c_y0092 and ref_36.c_ek2mf6b948) then ref_36.c_bjs3xa else ref_36.c_w3i end
+             as c2, 
+          ref_35.c_r28b0m4p as c3
+        from 
+          (t_cnt0yv2e as ref_35
+            inner join t_cnt0yv2e as ref_36
+            on (((select min(c_ek2mf6b948) from t_cnt0yv2e)
+                   in (
+                select  
+                      1255903067 as c0
+                    from 
+                      t_cnt0yv2e as ref_37
+                    where (ref_37.c_bjs3xa not like 'zf_a5mx')
+                  union all
+                  select  
+                      1721109136 as c0
+                    from 
+                      t_cnt0yv2e as ref_38
+                    where (ref_38.c_y0092 between ref_38.c_y0092 and ref_38.c_y0092)))))
+        where (cast(null as signed) is NULL) limit 48) as subq_1
+  where (subq_1.c3 in (
+    select  
+        ref_39.c_bjs3xa as c0
+      from 
+        (t_cnt0yv2e as ref_39
+          left outer join (t_cnt0yv2e as ref_40
+            inner join (t_cnt0yv2e as ref_41
+              inner join t_cnt0yv2e as ref_42
+              on ((ref_41.c_bjs3xa not in (
+                  select  
+                      ref_43.c_w3i as c0
+                    from 
+                      t_cnt0yv2e as ref_43
+                    where 0<>0
+                    order by c0 desc))))
+            on (ref_40.c_y0092 = ref_42.c_ek2mf6b948 ))
+          on ((ref_42.c_mdutdedtjq is not NULL)))
+      where (ref_42.c_r28b0m4p = 'bmmr76kx9')))
+  group by subq_1.c3), 
+cte_4 AS (select distinct 
+    avg(
+    cast(((subq_2.c7 between ref_45.c_ek2mf6b948 and (select c_ek2mf6b948 from t_cnt0yv2e order by c_ek2mf6b948 limit 1 offset 3)
+          ) << round(
+        cast(subq_2.c8 as double))) as signed)) as c0, 
+    ref_45.c_w3i as c1, 
+    avg(
+    cast(ref_44.c_g as double)) as c2, 
+    avg(
+    cast(ref_46.c_g as double)) as c3, 
+    avg(
+    cast(subq_2.c1 as signed)) as c4
+  from 
+    ((t_cnt0yv2e as ref_44
+        cross join (t_cnt0yv2e as ref_45
+          cross join t_cnt0yv2e as ref_46
+          )
+        )
+      inner join (select  
+            ref_47.c_r28b0m4p as c0, 
+            ref_47.c_y0092 as c1, 
+            ref_47.c_w3i as c2, 
+            (select sum(c_ek2mf6b948) from t_cnt0yv2e)
+               as c3, 
+            ref_47.c_bjs3xa as c4, 
+            ref_47.c_bjs3xa as c5, 
+            ref_47.c_ek2mf6b948 as c6, 
+            ref_47.c_ek2mf6b948 as c7, 
+            ref_47.c_kgvz13t as c8, 
+            ref_47.c_bjs3xa as c9
+          from 
+            t_cnt0yv2e as ref_47
+          where 0<>0 limit 87) as subq_2
+      on ((ref_44.c_mdutdedtjq in (
+          select  
+              ((ref_48.c_bjs3xa <> ref_48.c_r28b0m4p)) 
+                and ((ref_48.c_y0092 between ref_48.c_e4d55avvc and ref_48.c_e4d55avvc)) as c0
+            from 
+              t_cnt0yv2e as ref_48
+            where (ref_48.c_y0092 between ref_48.c_ek2mf6b948 and ref_48.c_y0092)))))
+  where (ref_44.c_bjs3xa <> ( 
+    select  
+        ref_49.c_r28b0m4p as c0
+      from 
+        t_cnt0yv2e as ref_49
+      where (ref_46.c_kgvz13t <= (EXISTS (
+            select  
+                (select c_ek2mf6b948 from t_cnt0yv2e order by c_ek2mf6b948 limit 1 offset 1)
+                   as c0, 
+                ref_50.c_ek2mf6b948 as c1, 
+                ref_50.c_p as c2, 
+                (select c_kgvz13t from t_cnt0yv2e order by c_kgvz13t limit 1 offset 40)
+                   as c3, 
+                ref_50.c_kgvz13t as c4
+              from 
+                t_cnt0yv2e as ref_50
+              where ((ref_44.c_ek2mf6b948 between ref_50.c_y0092 and ref_45.c_y0092)) 
+                and (((ref_46.c_e4d55avvc not in (
+                    select distinct 
+                        ref_51.c_ek2mf6b948 as c0
+                      from 
+                        t_cnt0yv2e as ref_51
+                      where (ref_51.c_y0092 between ref_51.c_e4d55avvc and ref_51.c_ek2mf6b948)))) 
+                  or (0<>0)) limit 170)))
+      order by c0 desc limit 1))
+  group by ref_45.c_w3i), 
+cte_5 AS (select  
+    ref_52.c_r28b0m4p as c0
+  from 
+    t_cnt0yv2e as ref_52
+  where (82.39 <=> 1527708690)
+  group by ref_52.c_r28b0m4p limit 83), 
+cte_6 AS (select  
+    subq_3.c1 as c0, 
+    min(
+    cast(abs(
+      cast(subq_3.c2 as signed)) as signed)) as c1, 
+    sum(
+    cast(subq_3.c2 as signed)) as c2, 
+    sum(
+    cast(subq_3.c2 as signed)) as c3
+  from 
+    (select  
+          max(
+          cast(ref_53.c_e4d55avvc as signed)) as c0, 
+          max(
+          cast((select avg(c_kgvz13t) from t_cnt0yv2e)
+             as double)) as c1, 
+          count(
+          cast(355865611 as signed)) as c2, 
+          ref_54.c_p as c3, 
+          sum(
+          cast(ref_53.c_e4d55avvc as signed)) as c4
+        from 
+          (t_cnt0yv2e as ref_53
+            left outer join (t_cnt0yv2e as ref_54
+              cross join t_cnt0yv2e as ref_55
+              )
+            on ((ref_55.c_e4d55avvc between ref_53.c_ek2mf6b948 and 1802086641)))
+        where (ref_55.c_p is not NULL)
+        group by ref_54.c_p) as subq_3
+  where (854749270 != (subq_3.c1 >= ( 
+        select  
+            ref_56.c_kgvz13t as c0
+          from 
+            t_cnt0yv2e as ref_56
+          where ((ref_56.c_r28b0m4p <=> ref_56.c_r28b0m4p)) 
+            or (((select c_kgvz13t from t_cnt0yv2e order by c_kgvz13t limit 1 offset 2)
+                   > 1203161911)) limit 1)))
+  group by subq_3.c1), 
+cte_7 AS (select  
+    avg(
+    cast(round(
+      cast((select min(c_kgvz13t) from t_cnt0yv2e)
+         as double)) as signed)) as c0, 
+    count(*) as c1, 
+    subq_4.c1 as c2, 
+    min(
+    cast(subq_4.c2 as signed)) as c3, 
+    count(
+    cast(cast(nullif(
+      subq_4.c0, 
+      subq_4.c0
+      ) as char) as char)) as c4, 
+    count(*) as c5, 
+    count(
+    cast(subq_4.c2 as signed)) as c6
+  from 
+    (select  
+          ref_59.c_w3i as c0, 
+          (select c_bjs3xa from t_cnt0yv2e order by c_bjs3xa limit 1 offset 3)
+             as c1, 
+          ref_58.c_ek2mf6b948 as c2, 
+          ref_59.c_p as c3
+        from 
+          ((t_cnt0yv2e as ref_57
+              inner join t_cnt0yv2e as ref_58
+              on ((cast(null as signed) >= 872325904)))
+            left outer join t_cnt0yv2e as ref_59
+            on (ref_57.c_e4d55avvc = ref_59.c_ek2mf6b948 ))
+        where ('cuq65' > ref_58.c_r28b0m4p)
+        order by c0, c1, c2, c3 asc) as subq_4
+  where (1598246727 <> case when ((select c_ek2mf6b948 from t_cnt0yv2e order by c_ek2mf6b948 limit 1 offset 5)
+               || (select count(c_kgvz13t) from t_cnt0yv2e)
+              ) then 1974088735 else 163448677 end
+        )
+  group by subq_4.c1 limit 51), 
+cte_8 AS (select  
+    ref_60.c_mdutdedtjq as c0, 
+    max(
+    cast((select min(c_ek2mf6b948) from t_cnt0yv2e)
+       as signed)) as c1, 
+    count(
+    cast(abs(
+      cast(ref_60.c_y0092 as signed)) as signed)) as c2, 
+    min(
+    cast((ref_60.c_kgvz13t / (ref_60.c_y0092 is NULL)) as double)) as c3, 
+    sum(
+    cast(abs(
+      cast(ref_60.c_kgvz13t as double)) as double)) as c4, 
+    max(
+    cast(ref_60.c_e4d55avvc as signed)) as c5
+  from 
+    t_cnt0yv2e as ref_60
+  where ((ref_60.c_y0092 between ref_60.c_y0092 and round(
+        cast((ref_60.c_kgvz13t DIV ref_60.c_g) as double), 
+        cast(ref_60.c_e4d55avvc as signed)))) 
+    or ((ref_60.c_y0092 is not NULL))
+  group by ref_60.c_mdutdedtjq)
+select  
+    sum(
+    cast((select c_ek2mf6b948 from t_cnt0yv2e order by c_ek2mf6b948 limit 1 offset 6)
+       as signed)) as c0, 
+    count(
+    cast(1546634232 as signed)) as c1, 
+    sum(
+    cast(1758771003 as signed)) as c2, 
+    subq_5.c0 as c3, 
+    count(
+    cast((select c_kgvz13t from t_cnt0yv2e order by c_kgvz13t limit 1 offset 1)
+       as double)) as c4, 
+    count(
+    cast(38.18 as double)) as c5, 
+    max(
+    cast((select c_ek2mf6b948 from t_cnt0yv2e order by c_ek2mf6b948 limit 1 offset 5)
+       as signed)) as c6
+  from 
+    (select  
+          ref_63.c0 as c0, 
+          (select max(c_ek2mf6b948) from t_cnt0yv2e)
+             as c1
+        from 
+          cte_5 as ref_63
+        where 1=1 limit 120) as subq_5
+  where (cast(null as char) != 'nw821k')
+  group by subq_5.c0;
+
+-- sql #6
+-- data: 5530 6133 0 ; level: 13
+select  
+    (13.73 & (EXISTS (
+        select  
+            ref_0.c_g as c0, 
+            ref_1.c_y0092 as c1, 
+            (select c_g from t_cnt0yv2e order by c_g limit 1 offset 4)
+               as c2, 
+            ref_1.c_kgvz13t as c3, 
+            ref_1.c_w3i as c4, 
+            ref_1.c_r28b0m4p as c5, 
+            ref_1.c_bjs3xa as c6, 
+            ref_0.c_g as c7
+          from 
+            t_cnt0yv2e as ref_1
+          where (ref_1.c_y0092 between ref_0.c_y0092 and ref_0.c_e4d55avvc)))) as c0
+  from 
+    t_cnt0yv2e as ref_0
+  where (ref_0.c_p is not NULL)
+union
+select  
+    case when 1=1 then subq_0.c8 else subq_0.c8 end
+       as c0
+  from 
+    (select  
+          count(
+          cast(ref_2.c_g as double)) as c0, 
+          max(
+          cast(ref_2.c_e4d55avvc as signed)) as c1, 
+          count(*) as c2, 
+          avg(
+          cast(ref_2.c_y0092 as signed)) as c3, 
+          ref_2.c_p as c4, 
+          max(
+          cast(round(
+            cast(ref_2.c_kgvz13t as double)) as signed)) as c5, 
+          max(
+          cast(ref_2.c_g as double)) as c6, 
+          max(
+          cast(20.42 as double)) as c7, 
+          max(
+          cast(ref_2.c_e4d55avvc as signed)) as c8, 
+          count(
+          cast(ref_2.c_y0092 as signed)) as c9, 
+          count(
+          cast(ref_2.c_r28b0m4p as char)) as c10, 
+          sum(
+          cast(ref_2.c_ek2mf6b948 as signed)) as c11
+        from 
+          t_cnt0yv2e as ref_2
+        where 0<>0
+        group by ref_2.c_p limit 59) as subq_0
+  where (EXISTS (
+    select  
+        ref_3.c_p as c0, 
+        ref_3.c_w3i as c1, 
+        ref_3.c_e4d55avvc as c2, 
+        ref_3.c_p as c3, 
+        replace(
+          cast(cast(nullif(
+            subq_0.c10, 
+            ref_3.c_bjs3xa
+            ) as char) as char), 
+          cast(subq_0.c10 as char), 
+          cast(ref_3.c_w3i as char)) as c4, 
+        (round(
+            cast(ref_3.c_kgvz13t as double)) && subq_0.c8) as c5, 
+        case when 1=1 then subq_0.c11 else ref_3.c_ek2mf6b948 end
+           as c6, 
+        ref_3.c_kgvz13t as c7, 
+        150114020 as c8, 
+        ref_3.c_e4d55avvc as c9, 
+        ref_3.c_w3i as c10, 
+        ref_3.c_e4d55avvc as c11
+      from 
+        t_cnt0yv2e as ref_3
+      where ((cast(null as char) = 'm')) 
+        or ((0<>0) 
+          or ((((subq_0.c0 between subq_0.c1 and subq_0.c1)) 
+                or (((ref_3.c_g > 9.58)) 
+                  or (((select sum(c_ek2mf6b948) from t_cnt0yv2e)
+                       in (
+                    select  
+                        25959503 as c0
+                      from 
+                        t_cnt0yv2e as ref_4
+                      where (ref_4.c_y0092 between ref_4.c_e4d55avvc and ref_4.c_y0092))))) = subq_0.c2)))));
+
+-- sql #7
+-- data: 6133 6429 0 ; level: 11
+update t_cnt0yv2e set 
+  c_ek2mf6b948 = t_cnt0yv2e.c_y0092, 
+  c_w3i = t_cnt0yv2e.c_r28b0m4p, 
+  c_bjs3xa = t_cnt0yv2e.c_r28b0m4p
+where (((((cast(null as signed) DIV 228452626) between cast(coalesce(
+          t_cnt0yv2e.c_e4d55avvc, 
+          t_cnt0yv2e.c_ek2mf6b948
+          ) as signed) and t_cnt0yv2e.c_ek2mf6b948)) 
+      or ((length(
+            cast(t_cnt0yv2e.c_r28b0m4p as char)) <> 1260733086))) 
+    and ((t_cnt0yv2e.c_g is not NULL))) 
+  and (((374485480 <= case when (((1086623651 > 1521795854)) 
+                or ((t_cnt0yv2e.c_kgvz13t XOR 0<>0)) && 1741726111) then 43.31 else t_cnt0yv2e.c_kgvz13t end
+          )) 
+    or ((abs(
+          cast(t_cnt0yv2e.c_y0092 as signed)) = t_cnt0yv2e.c_ek2mf6b948)));
+
+-- sql #8
+-- data: 6429 7006 0 ; level: 24
+create table t_l_nt7syv as 
+select  
+    ref_0.c_g as c0, 
+    395093 as c1, 
+    ref_0.c_kgvz13t as c2, 
+    ref_0.c_bjs3xa as c3, 
+    ref_0.c_e4d55avvc as c4, 
+    ref_0.c_e4d55avvc as c5, 
+    ('d2' <= (select c_w3i from t_cnt0yv2e order by c_w3i limit 1 offset 2)
+        ) as c6, 
+    case when (case when ((128152470 || 1242276997)) 
+              or ((((ref_0.c_e4d55avvc between ref_0.c_ek2mf6b948 and ref_0.c_e4d55avvc)) 
+                    or ((EXISTS (
+                      select  
+                          ref_0.c_r28b0m4p as c0, 
+                          ref_1.c_mdutdedtjq as c1, 
+                          ref_1.c_y0092 as c2, 
+                          ref_1.c_w3i as c3, 
+                          ref_1.c_y0092 as c4, 
+                          ref_1.c_g as c5, 
+                          ref_1.c_e4d55avvc as c6, 
+                          ref_1.c_w3i as c7, 
+                          ref_1.c_w3i as c8
+                        from 
+                          t_cnt0yv2e as ref_1
+                        where (ref_0.c_e4d55avvc < ( 
+                          select  
+                                (select max(c_ek2mf6b948) from t_cnt0yv2e)
+                                   as c0
+                              from 
+                                t_cnt0yv2e as ref_2
+                              where (ref_2.c_kgvz13t = ((ref_0.c_w3i in (
+                                      select  
+                                            ref_3.c_bjs3xa as c0
+                                          from 
+                                            t_cnt0yv2e as ref_3
+                                          where 1=1
+                                        union
+                                        select  
+                                            ref_4.c_r28b0m4p as c0
+                                          from 
+                                            t_cnt0yv2e as ref_4
+                                          where (675228475 != ref_4.c_y0092)))) 
+                                    and (1=1))
+                            union
+                            select  
+                                ref_1.c_ek2mf6b948 as c0
+                              from 
+                                t_cnt0yv2e as ref_5
+                              where 1=1
+                             limit 1))))) && ref_0.c_e4d55avvc)) then 1970514283 else 886712406 end
+             <= ref_0.c_kgvz13t) then (1.14 | abs(
+          cast((select c_ek2mf6b948 from t_cnt0yv2e order by c_ek2mf6b948 limit 1 offset 3)
+             as signed))) else abs(
+        cast(ref_0.c_ek2mf6b948 as signed)) end
+       as c7, 
+    cast(coalesce(
+      ref_0.c_y0092, 
+      (cast(nullif(
+          317834986, 
+          1693947706
+          ) as signed) >> (select max(c_ek2mf6b948) from t_cnt0yv2e)
+          )
+      ) as signed) as c8, 
+    replace(
+      cast((select c_w3i from t_cnt0yv2e order by c_w3i limit 1 offset 6)
+         as char), 
+      cast((select c_w3i from t_cnt0yv2e order by c_w3i limit 1 offset 3)
+         as char), 
+      cast(ref_0.c_w3i as char)) as c9, 
+    ref_0.c_kgvz13t as c10, 
+    ('tozk' != 'n74qlnw4_') as c11
+  from 
+    t_cnt0yv2e as ref_0
+  where (ref_0.c_ek2mf6b948 is NULL);
+
+-- sql #9
+-- data: 7006 7210 0 ; level: 6
+WITH 
+cte_0 AS (select  
+    ref_0.c_p as c0, 
+    ref_0.c_e4d55avvc as c1, 
+    (select count(c_w3i) from t_cnt0yv2e)
+       as c2, 
+    (select c_w3i from t_cnt0yv2e order by c_w3i limit 1 offset 1)
+       as c3, 
+    ref_0.c_bjs3xa as c4, 
+    (select c_w3i from t_cnt0yv2e order by c_w3i limit 1 offset 70)
+       as c5, 
+    trim(
+      cast(ref_0.c_r28b0m4p as char)) as c6, 
+    ref_0.c_mdutdedtjq as c7
+  from 
+    t_cnt0yv2e as ref_0
+  where (case when (ref_0.c_r28b0m4p is NULL) then ref_0.c_g else ref_0.c_kgvz13t end
+       in (
+    select  
+        ref_1.c10 as c0
+      from 
+        t_l_nt7syv as ref_1
+      where ('i0x4' <=> ref_1.c3))))
+select  
+    ref_2.c2 as c0, 
+    ref_2.c6 as c1, 
+    ref_2.c1 as c2, 
+    ref_2.c4 as c3
+  from 
+    cte_0 as ref_2
+  where (ref_2.c3 is not NULL) limit 117;
+
+-- sql #10
+-- data: 7210 7232 0 ; level: 3
+delete from t_cnt0yv2e
+where 
+(t_cnt0yv2e.c_y0092 > 1743746161);
+
+-- sql #12
+-- data: 8019 8450 0 ; level: 9
+select  
+    abs(
+      cast(ref_0.c_kgvz13t as double)) as c0, 
+    (ref_0.c_e4d55avvc <=> 61.4) as c1, 
+    ref_0.c_p as c2, 
+    case when (ref_0.c_g = 146613522) then ref_0.c_w3i else (691352374 & ref_0.c_y0092) end
+       as c3, 
+    ref_0.c_p as c4
+  from 
+    t_cnt0yv2e as ref_0
+  where (round(
+      cast(abs(
+        cast(ref_0.c_kgvz13t as double)) as double), 
+      cast(round(
+        cast(ref_0.c_g as double), 
+        cast(ref_0.c_y0092 as signed)) as signed)) between round(
+      cast(ref_0.c_kgvz13t as double)) and 269974886)
+union
+select  
+    31.1 as c0, 
+    (69.79 || subq_1.c0) as c1, 
+    ((
+          LEAD(
+            cast(subq_1.c0 as signed), 
+            11) over (partition by subq_1.c1, subq_1.c0 order by subq_1.c0, subq_1.c1) not in (
+        select  
+              ref_2.c8 as c0
+            from 
+              t_l_nt7syv as ref_2
+            where (ref_2.c3 not like 'gsm_w')
+          union
+          select  
+              ref_3.c8 as c0
+            from 
+              t_l_nt7syv as ref_3
+            where (ref_3.c1 is not NULL)))) 
+      or ((subq_1.c1 is not NULL)) as c2, 
+    subq_1.c1 as c3, 
+    (substr(
+        cast((select c_w3i from t_cnt0yv2e order by c_w3i limit 1 offset 65)
+           as char), 
+        cast(subq_1.c0 as signed)) is NULL) as c4
+  from 
+    (select  
+          subq_0.c3 as c0, 
+          subq_0.c5 as c1
+        from 
+          (select  
+                ref_1.c4 as c0, 
+                ref_1.c1 as c1, 
+                ref_1.c4 as c2, 
+                ref_1.c1 as c3, 
+                ref_1.c10 as c4, 
+                ref_1.c3 as c5, 
+                ref_1.c7 as c6, 
+                ref_1.c0 as c7, 
+                ref_1.c1 as c8, 
+                ref_1.c9 as c9, 
+                ref_1.c8 as c10, 
+                ref_1.c9 as c11
+              from 
+                t_l_nt7syv as ref_1
+              where 0<>0 limit 102) as subq_0
+        where 1=1) as subq_1
+  where (abs(
+        cast((select min(c1) from t_l_nt7syv)
+           as signed)) XOR 33.96)
+ limit 5;
+
+-- sql #13
+-- data: 8450 11744 0 ; level: 17
+WITH 
+cte_0 AS (select  
+    substr(
+      cast(subq_0.c5 as char), 
+      cast(subq_0.c7 as signed), 
+      cast(subq_0.c7 as signed)) as c0, 
+    
+      count(
+        cast((length(
+            cast(subq_0.c4 as char)) & 31622347) as signed)) over (partition by subq_0.c6 order by subq_0.c5) as c1, 
+    case when ((cast(null as signed) <> ( 
+          select  
+                cast(null as signed) as c0
+              from 
+                t_cnt0yv2e as ref_5
+              where (1139170397 <> (cast(null as signed) <=> 77281962))
+            union all
+            select  
+                801306397 as c0
+              from 
+                t_cnt0yv2e as ref_6
+              where (ref_6.c_ek2mf6b948 is not NULL)
+             limit 1))) 
+        or (0<>0) then (case when (subq_0.c7 between (select c_ek2mf6b948 from t_cnt0yv2e order by c_ek2mf6b948 limit 1 offset 5)
+               and subq_0.c7) then 30.38 else subq_0.c11 end
+           <= cast(null as signed)) else (subq_0.c7 not in (
+        select  
+              ref_7.c_ek2mf6b948 as c0
+            from 
+              t_cnt0yv2e as ref_7
+            where (((ref_7.c_r28b0m4p not like 'wfd3%e_dh')) 
+                or (0<>0)) 
+              and ((1260078141 = 2065568149))
+          union
+          select  
+              ref_8.c4 as c0
+            from 
+              t_l_nt7syv as ref_8
+            where (ref_8.c7 && ref_8.c8))) end
+       as c2, 
+    subq_0.c4 as c3
+  from 
+    (select  
+          ref_0.c_w3i as c0, 
+          ref_0.c_w3i as c1, 
+          ref_0.c_r28b0m4p as c2, 
+          ref_0.c_r28b0m4p as c3, 
+          ref_0.c_w3i as c4, 
+          ref_0.c_w3i as c5, 
+          ref_0.c_p as c6, 
+          ref_0.c_e4d55avvc as c7, 
+          ref_0.c_kgvz13t as c8, 
+          ref_0.c_g as c9, 
+          ref_0.c_r28b0m4p as c10, 
+          ref_0.c_kgvz13t as c11
+        from 
+          t_cnt0yv2e as ref_0
+        where ((ref_0.c_e4d55avvc <> ( 
+              select  
+                  ref_1.c11 as c0
+                from 
+                  t_l_nt7syv as ref_1
+                where 1=1 limit 1)) || 762760298) limit 133) as subq_0
+  where (subq_0.c6 <> ( 
+    select  
+        (subq_1.c3 >= ( 
+          select  
+                subq_1.c3 as c0
+              from 
+                t_cnt0yv2e as ref_3
+              where (1433149114 < 975732038)
+            union
+            select  
+                subq_1.c3 as c0
+              from 
+                t_l_nt7syv as ref_4
+              where (cast(null as char) >= 'e4up9_s2c7')
+             limit 1)) as c0
+      from 
+        (select  
+              ref_2.c9 as c0, 
+              ref_2.c8 as c1, 
+              ref_2.c8 as c2, 
+              ref_2.c7 as c3, 
+              (select c10 from t_l_nt7syv order by c10 limit 1 offset 3)
+                 as c4, 
+              ref_2.c11 as c5, 
+              ref_2.c7 as c6, 
+              ref_2.c2 as c7
+            from 
+              t_l_nt7syv as ref_2
+            where (ref_2.c8 && ref_2.c11)) as subq_1
+      where ((subq_0.c8 = 1297293795)) 
+        or (((subq_0.c5 not in (
+            subq_0.c5, subq_0.c10, subq_0.c1, subq_0.c1, subq_0.c1))) 
+          or ((subq_0.c7 between subq_1.c5 and 1049916686)))
+      order by c0 desc limit 1))), 
+cte_1 AS (select  
+    replace(
+      cast('dp8e_o6ht9' as char), 
+      cast('r8n6a_1' as char), 
+      cast('w5zj2y' as char)) as c0, 
+    subq_2.c6 as c1, 
+    subq_2.c6 as c2, 
+    subq_2.c8 as c3
+  from 
+    (select  
+          ref_9.c2 as c0, 
+          1840407319 as c1, 
+          (select c_mdutdedtjq from t_cnt0yv2e order by c_mdutdedtjq limit 1 offset 6)
+             as c2, 
+          ref_9.c5 as c3, 
+          ref_9.c7 as c4, 
+          ref_9.c8 as c5, 
+          ref_9.c8 as c6, 
+          ref_9.c8 as c7, 
+          ref_9.c11 as c8, 
+          ref_9.c4 as c9, 
+          ref_9.c2 as c10, 
+          (select sum(c_kgvz13t) from t_cnt0yv2e)
+             as c11
+        from 
+          t_l_nt7syv as ref_9
+        where (ref_9.c6 is NULL)) as subq_2
+  where (subq_2.c9 in (
+    select  
+        1056023314 as c0
+      from 
+        (select  
+              ref_10.c2 as c0, 
+              ref_10.c10 as c1, 
+              ref_10.c3 as c2, 
+              ref_10.c2 as c3, 
+              ref_10.c8 as c4, 
+              ref_10.c1 as c5, 
+              ref_10.c0 as c6, 
+              ref_10.c8 as c7, 
+              ref_10.c7 as c8, 
+              ref_10.c3 as c9, 
+              ref_10.c2 as c10, 
+              ref_10.c10 as c11, 
+              ref_10.c0 as c12, 
+              ref_10.c8 as c13, 
+              ref_10.c6 as c14, 
+              ref_10.c9 as c15, 
+              ref_10.c0 as c16, 
+              ref_10.c3 as c17, 
+              ref_10.c10 as c18, 
+              ref_10.c0 as c19, 
+              ref_10.c4 as c20, 
+              ref_10.c7 as c21, 
+              ref_10.c8 as c22, 
+              349203734 as c23, 
+              ref_10.c4 as c24, 
+              ref_10.c1 as c25, 
+              ref_10.c5 as c26, 
+              ref_10.c1 as c27, 
+              ref_10.c4 as c28, 
+              ref_10.c0 as c29, 
+              ref_10.c7 as c30, 
+              ref_10.c5 as c31, 
+              ref_10.c3 as c32, 
+              ref_10.c2 as c33, 
+              ref_10.c3 as c34, 
+              ref_10.c3 as c35, 
+              ref_10.c9 as c36, 
+              ref_10.c4 as c37, 
+              ref_10.c4 as c38, 
+              ref_10.c7 as c39, 
+              ref_10.c8 as c40, 
+              ref_10.c10 as c41, 
+              ref_10.c8 as c42, 
+              ref_10.c2 as c43, 
+              2024937159 as c44, 
+              ref_10.c11 as c45, 
+              ref_10.c5 as c46, 
+              ref_10.c6 as c47, 
+              ref_10.c8 as c48, 
+              ref_10.c6 as c49, 
+              ref_10.c8 as c50, 
+              ref_10.c6 as c51, 
+              ref_10.c11 as c52, 
+              ref_10.c8 as c53, 
+              ref_10.c1 as c54, 
+              ref_10.c7 as c55, 
+              ref_10.c2 as c56, 
+              ref_10.c2 as c57, 
+              ref_10.c10 as c58, 
+              ref_10.c4 as c59, 
+              ref_10.c1 as c60, 
+              ref_10.c7 as c61, 
+              ref_10.c9 as c62, 
+              ref_10.c1 as c63, 
+              ref_10.c6 as c64, 
+              ref_10.c11 as c65, 
+              ref_10.c11 as c66, 
+              ref_10.c1 as c67, 
+              ref_10.c7 as c68
+            from 
+              t_l_nt7syv as ref_10
+            where (ref_10.c3 >= ( 
+              select  
+                  'r' as c0
+                from 
+                  t_l_nt7syv as ref_11
+                where (ref_11.c6 <=> 254844500) limit 1))) as subq_3
+      where (subq_3.c32 not like 'labu_q_r'))) limit 158), 
+cte_2 AS (select  
+    subq_4.c0 as c0, 
+    case when (subq_4.c4 not in (
+        select  
+              ref_17.c11 as c0
+            from 
+              (t_l_nt7syv as ref_17
+                cross join t_l_nt7syv as ref_18
+                )
+            where (EXISTS (
+              select  
+                  ref_19.c_p as c0, 
+                  ref_18.c0 as c1, 
+                  ref_18.c2 as c2, 
+                  ref_19.c_e4d55avvc as c3, 
+                  ref_19.c_e4d55avvc as c4, 
+                  ref_18.c0 as c5, 
+                  ref_17.c0 as c6, 
+                  ref_19.c_y0092 as c7
+                from 
+                  t_cnt0yv2e as ref_19
+                where (ref_18.c4 in (
+                  select  
+                        ref_20.c_ek2mf6b948 as c0
+                      from 
+                        t_cnt0yv2e as ref_20
+                      where (((EXISTS (
+                            select  
+                                ref_21.c_p as c0, 
+                                ref_21.c_bjs3xa as c1, 
+                                ref_21.c_mdutdedtjq as c2, 
+                                ref_21.c_r28b0m4p as c3, 
+                                ref_21.c_bjs3xa as c4, 
+                                ref_21.c_w3i as c5, 
+                                ref_21.c_e4d55avvc as c6, 
+                                ref_21.c_mdutdedtjq as c7, 
+                                ref_21.c_kgvz13t as c8
+                              from 
+                                t_cnt0yv2e as ref_21
+                              where (ref_20.c_y0092 between ref_20.c_e4d55avvc and ref_21.c_e4d55avvc)))) 
+                          and ((ref_20.c_w3i like 'o3_'))) 
+                        or ((((1799965798 != 717119996)) 
+                            and (((ref_20.c_y0092 between ref_20.c_ek2mf6b948 and ref_20.c_y0092)) 
+                              or ((ref_20.c_p is not NULL)))) 
+                          and ((73.90 XOR 67.77)))
+                    union
+                    select  
+                        ref_22.c_ek2mf6b948 as c0
+                      from 
+                        t_cnt0yv2e as ref_22
+                      where ((ref_22.c_bjs3xa not like '%')) 
+                        and (((((2009633762 is not NULL)) 
+                              and (1=1)) 
+                            and ((ref_22.c_w3i like 'bb_85'))) 
+                          or (0<>0))))))
+          union
+          select  
+              ref_23.c_y0092 as c0
+            from 
+              t_cnt0yv2e as ref_23
+            where (ref_23.c_p > ( 
+              select  
+                    1=1 as c0
+                  from 
+                    t_l_nt7syv as ref_24
+                  where (ref_24.c11 >= 100776941)
+                union
+                select  
+                    (ref_25.c4 between ref_23.c_e4d55avvc and ref_25.c1) as c0
+                  from 
+                    t_l_nt7syv as ref_25
+                  where (('dlw1' not like 'eod%7dkl')) 
+                    and ((ref_23.c_w3i in (
+                      select  
+                          ref_26.c_bjs3xa as c0
+                        from 
+                          t_cnt0yv2e as ref_26
+                        where 1=1)))
+                 limit 1)))) then subq_4.c6 else subq_4.c1 end
+       as c1, 
+    case when (EXISTS (
+        select  
+            ref_27.c_ek2mf6b948 as c0, 
+            ref_27.c_e4d55avvc as c1, 
+            (select c_ek2mf6b948 from t_cnt0yv2e order by c_ek2mf6b948 limit 1 offset 96)
+               as c2, 
+            (select max(c_ek2mf6b948) from t_cnt0yv2e)
+               as c3
+          from 
+            t_cnt0yv2e as ref_27
+          where (ref_27.c_g <= subq_4.c0)
+          order by c0, c1, c2, c3 asc)) then subq_4.c1 else subq_4.c1 end
+       as c2
+  from 
+    (select  
+          (select c7 from t_l_nt7syv order by c7 limit 1 offset 3)
+             as c0, 
+          ref_12.c_w3i as c1, 
+          (select c_mdutdedtjq from t_cnt0yv2e order by c_mdutdedtjq limit 1 offset 6)
+             as c2, 
+          ref_12.c_w3i as c3, 
+          ref_12.c_y0092 as c4, 
+          ref_12.c_g as c5, 
+          ref_12.c_r28b0m4p as c6, 
+          (select c6 from t_l_nt7syv order by c6 limit 1 offset 4)
+             as c7, 
+          ref_12.c_g as c8
+        from 
+          t_cnt0yv2e as ref_12
+        where (ref_12.c_kgvz13t not in (
+          select  
+              ref_13.c_kgvz13t as c0
+            from 
+              t_cnt0yv2e as ref_13
+            where ((EXISTS (
+                select  
+                    ref_14.c_ek2mf6b948 as c0, 
+                    ref_14.c_g as c1, 
+                    ref_14.c_w3i as c2, 
+                    ref_14.c_kgvz13t as c3, 
+                    ref_14.c_r28b0m4p as c4, 
+                    ref_14.c_e4d55avvc as c5, 
+                    ref_14.c_e4d55avvc as c6, 
+                    ref_14.c_e4d55avvc as c7
+                  from 
+                    t_cnt0yv2e as ref_14
+                  where (475197839 not in (
+                    select distinct 
+                          ref_15.c8 as c0
+                        from 
+                          t_l_nt7syv as ref_15
+                        where (ref_15.c4 = 67.40)
+                      union
+                      select  
+                          ref_16.c8 as c0
+                        from 
+                          t_l_nt7syv as ref_16
+                        where (ref_16.c8 <> (ref_16.c2 is NULL))))))) 
+              or ((ref_13.c_e4d55avvc = cast(null as signed))))) limit 48) as subq_4
+  where (cast(null as signed) && 151734813) limit 36), 
+cte_3 AS (select  
+    abs(
+      cast(subq_5.c0 as double)) as c0
+  from 
+    (select  
+          ref_28.c_g as c0, 
+          ref_28.c_y0092 as c1, 
+          ref_28.c_bjs3xa as c2
+        from 
+          t_cnt0yv2e as ref_28
+        where ((select c7 from t_l_nt7syv order by c7 limit 1 offset 37)
+               XOR 54.2)) as subq_5
+  where ((1888493459 is not NULL) = subq_5.c0)), 
+cte_4 AS (select  
+    ref_29.c10 as c0, 
+    ref_29.c3 as c1, 
+    case when (ref_29.c9 is not NULL) then ref_29.c5 else ref_29.c5 end
+       as c2, 
+    (515333493 % cast(nullif(
+        164366361, 
+        ref_29.c8
+        ) as signed)) as c3, 
+    ref_29.c11 as c4, 
+    ref_29.c0 as c5, 
+    (select count(c1) from t_l_nt7syv)
+       as c6, 
+    1602726451 as c7, 
+    ref_29.c4 as c8, 
+    ref_29.c8 as c9, 
+    abs(
+      cast(ref_29.c2 as double)) as c10
+  from 
+    t_l_nt7syv as ref_29
+  where (ref_29.c4 between ref_29.c1 and ref_29.c4) limit 99), 
+cte_5 AS (select  
+    hex(
+      cast('yn1' as char)) as c0
+  from 
+    (select distinct 
+          ref_30.c2 as c0, 
+          count(
+          cast(ref_30.c11 as signed)) as c1, 
+          count(
+          cast(ref_30.c4 as signed)) as c2, 
+          count(*) as c3, 
+          sum(
+          cast(ref_30.c10 as double)) as c4, 
+          sum(
+          cast((select c_ek2mf6b948 from t_cnt0yv2e order by c_ek2mf6b948 limit 1 offset 5)
+             as signed)) as c5, 
+          count(
+          cast(ref_30.c0 as double)) as c6, 
+          min(
+          cast(50.44 as double)) as c7, 
+          count(*) as c8
+        from 
+          t_l_nt7syv as ref_30
+        where ('vigp2' <> 'gvoc23')
+        group by ref_30.c2 limit 140) as subq_6
+  where (subq_6.c8 != subq_6.c1)), 
+cte_6 AS (select  
+    ref_31.c_mdutdedtjq as c0, 
+    ref_31.c_kgvz13t as c1, 
+    upper(
+      cast(hex(
+        cast(ref_31.c_r28b0m4p as char)) as char)) as c2
+  from 
+    t_cnt0yv2e as ref_31
+  where (ref_31.c_kgvz13t <> ( 
+    select  
+        
+          FIRST_VALUE(
+            cast(86.83 as double)) over (partition by ref_32.c7 order by ref_32.c9) as c0
+      from 
+        t_l_nt7syv as ref_32
+      where (((ref_32.c7 >= 55.58)) 
+            and ((ref_32.c5 <> 49.17)) <> cast(null as signed)) limit 1)))
+select  
+    ref_34.c1 as c0, 
+    (1953202385 = (ref_33.c0 <> 354348808)) as c1, 
+    cast(coalesce(
+      ref_34.c1, 
+      ref_35.c0
+      ) as double) as c2, 
+    ref_33.c0 as c3, 
+    substr(
+      cast(ref_34.c2 as char), 
+      cast((select count(c_kgvz13t) from t_cnt0yv2e)
+         as signed)) as c4, 
+    ref_35.c0 as c5, 
+    ref_34.c0 as c6, 
+    case when (ref_34.c2 not like 'oe%118%qd') then (select c0 from cte_1 order by c0 limit 1 offset 3)
+         else 
+        LAST_VALUE(
+          cast(ref_34.c2 as char)) over (partition by ref_34.c1 order by ref_34.c0) end
+       as c7, 
+    
+    RANK() over win_t as c8, 
+    case when ((select c7 from cte_4 order by c7 limit 1 offset 35)
+           is not NULL) then ref_35.c0 else ref_35.c0 end
+       as c9
+  from 
+    ((cte_3 as ref_33
+        left outer join cte_6 as ref_34
+        on (('_h' >= 'h8eyn_qw')))
+      cross join cte_3 as ref_35
+      )
+  where (1360996807 <> 942100289)
+  window win_t as ( partition by ref_35.c0, ref_34.c0 order by (abs(
+        cast(round(
+          cast(ref_33.c0 as double), 
+          cast(round(
+            cast(ref_33.c0 as double), 
+            cast((select c_ek2mf6b948 from t_cnt0yv2e order by c_ek2mf6b948 limit 1 offset 2)
+               as signed)) as signed)) as signed)) || abs(
+        cast(abs(
+          cast(ref_34.c1 as double)) as double))), ref_34.c2 asc);
+
+-- sql #14
+-- data: 11747 11756 0 ; level: 0
+create index t_oo_idx_1 on t_cnt0yv2e (c_ek2mf6b948, c_kgvz13t, c_p, c_mdutdedtjq, c_g, c_e4d55avvc, c_y0092);
+
+-- sql #15
+-- data: 11756 11847 0 ; level: 5
+delete from t_cnt0yv2e
+where 
+(EXISTS (
+  select  
+      850757662 as c0, 
+      t_cnt0yv2e.c_w3i as c1, 
+      t_cnt0yv2e.c_p as c2, 
+      (select avg(c0) from t_l_nt7syv)
+         as c3, 
+      ref_0.c6 as c4, 
+      ref_0.c6 as c5, 
+      (select c2 from t_l_nt7syv order by c2 limit 1 offset 87)
+         as c6, 
+      ref_0.c4 as c7
+    from 
+      t_l_nt7syv as ref_0
+    where ((select sum(c1) from t_l_nt7syv)
+           || 459194718)));
+
+-- sql #18
+-- data: 15798 15891 0 ; level: 6
+update t_cnt0yv2e set 
+  c_ek2mf6b948 = t_cnt0yv2e.c_ek2mf6b948, 
+  c_bjs3xa = t_cnt0yv2e.c_bjs3xa, 
+  c_mdutdedtjq = ((select c7 from t_l_nt7syv order by c7 limit 1 offset 2)
+         <> 99.71), 
+  c_e4d55avvc = cast(nullif(
+    t_cnt0yv2e.c_ek2mf6b948, 
+    (1471948536 | (493462124 != 1090927116))
+    ) as signed)
+where 0<>0;
+
+-- sql #19
+-- data: 15891 16358 0 ; level: 10
+select  
+    subq_0.c7 as c0, 
+    case when (ref_0.c7 <> ref_0.c7) then ref_1.c1 else cast(coalesce(
+        subq_0.c7, 
+        ref_0.c6
+        ) as signed) end
+       as c1, 
+    subq_0.c4 as c2, 
+    (select sum(c0) from t_l_nt7syv)
+       as c3, 
+    case when (ref_0.c1 <> ref_0.c8) then ref_0.c3 else (select count(c_kgvz13t) from t_cnt0yv2e)
+         end
+       as c4, 
+    subq_0.c4 as c5, 
+    ref_0.c11 as c6
+  from 
+    ((t_l_nt7syv as ref_0
+        inner join t_l_nt7syv as ref_1
+        on ((ref_0.c9 <= ref_0.c9)))
+      cross join (select  
+            ref_2.c9 as c0, 
+            1178615911 as c1, 
+            ref_2.c3 as c2, 
+            ref_2.c9 as c3, 
+            ref_2.c2 as c4, 
+            ref_2.c11 as c5, 
+            ref_2.c4 as c6, 
+            ref_2.c5 as c7
+          from 
+            t_l_nt7syv as ref_2
+          where (54.81 <= ref_2.c8) limit 88) as subq_0
+      )
+  where (1683962486 <= ref_0.c6)
+union all
+select  
+    subq_1.c1 as c0, 
+    subq_1.c1 as c1, 
+    subq_1.c0 as c2, 
+    subq_1.c0 as c3, 
+    'vwlo7w2g' as c4, 
+    subq_1.c0 as c5, 
+    subq_1.c1 as c6
+  from 
+    (select distinct 
+          ref_5.c10 as c0, 
+          ref_5.c1 as c1
+        from 
+          (t_cnt0yv2e as ref_3
+            left outer join (t_l_nt7syv as ref_4
+              left outer join t_l_nt7syv as ref_5
+              on ((ref_4.c0 is NULL)))
+            on (('s2mod' != cast(null as char))))
+        where (EXISTS (
+          select  
+              ref_6.c_bjs3xa as c0, 
+              2047935948 as c1
+            from 
+              (t_cnt0yv2e as ref_6
+                cross join (t_cnt0yv2e as ref_7
+                  cross join t_cnt0yv2e as ref_8
+                  )
+                )
+            where (ref_8.c_mdutdedtjq is not NULL)
+            order by c0, c1 asc limit 72))) as subq_1
+  where (subq_1.c1 XOR round(
+        cast(subq_1.c0 as double), 
+        cast(subq_1.c1 as signed)));
+
+-- sql #20
+-- data: 16359 18613 0 ; level: 14
+WITH 
+cte_0 AS (select  
+    max(
+    cast(ref_0.c10 as double)) as c0, 
+    count(
+    cast(cast(coalesce(
+      ref_0.c3, 
+      ref_0.c3
+      ) as char) as char)) as c1, 
+    avg(
+    cast(ref_0.c2 as double)) as c2, 
+    ref_0.c0 as c3, 
+    count(*) as c4, 
+    count(
+    cast(subq_0.c2 as signed)) as c5, 
+    max(
+    cast((19.86 >> ref_0.c0) as signed)) as c6, 
+    max(
+    cast(ref_0.c2 as double)) as c7, 
+    count(*) as c8, 
+    max(
+    cast(length(
+      cast(ref_0.c3 as char)) as signed)) as c9
+  from 
+    (t_l_nt7syv as ref_0
+      cross join (select  
+            ref_1.c_e4d55avvc as c0, 
+            count(
+            cast(ref_1.c_bjs3xa as char)) as c1, 
+            min(
+            cast(ref_1.c_e4d55avvc as signed)) as c2, 
+            count(*) as c3, 
+            min(
+            cast(ref_1.c_kgvz13t as double)) as c4
+          from 
+            t_cnt0yv2e as ref_1
+          where (EXISTS (
+            select  
+                ref_2.c_p as c0, 
+                ref_2.c_kgvz13t as c1, 
+                ref_2.c_y0092 as c2, 
+                ref_2.c_y0092 as c3, 
+                (select c_bjs3xa from t_cnt0yv2e order by c_bjs3xa limit 1 offset 5)
+                   as c4, 
+                (select c10 from t_l_nt7syv order by c10 limit 1 offset 5)
+                   as c5, 
+                cast(null as signed) as c6, 
+                ref_2.c_w3i as c7, 
+                ref_2.c_mdutdedtjq as c8, 
+                ref_2.c_g as c9
+              from 
+                t_cnt0yv2e as ref_2
+              where ((1980157815 && (select sum(c1) from t_l_nt7syv)
+                      )) 
+                and ((580655253 <= ref_1.c_y0092))))
+          group by ref_1.c_e4d55avvc) as subq_0
+      )
+  where (ref_0.c6 is NULL)
+  group by ref_0.c0), 
+cte_1 AS (select distinct 
+    ref_3.c1 as c0, 
+    max(
+    cast(((ref_3.c4 <> ( 
+        select  
+              ref_4.c11 as c0
+            from 
+              t_l_nt7syv as ref_4
+            where ((ref_3.c11 is not NULL)) 
+              or (0<>0)
+          union
+          select  
+              (select c_ek2mf6b948 from t_cnt0yv2e order by c_ek2mf6b948 limit 1 offset 5)
+                 as c0
+            from 
+              t_l_nt7syv as ref_5
+            where (ref_3.c10 = ( 
+              select  
+                  3.77 as c0
+                from 
+                  t_cnt0yv2e as ref_6
+                where (EXISTS (
+                  select  
+                      ref_7.c_r28b0m4p as c0, 
+                      ref_7.c_ek2mf6b948 as c1, 
+                      ref_7.c_e4d55avvc as c2, 
+                      ref_7.c_ek2mf6b948 as c3, 
+                      ref_7.c_w3i as c4, 
+                      ref_7.c_ek2mf6b948 as c5, 
+                      ref_7.c_y0092 as c6, 
+                      ref_7.c_w3i as c7, 
+                      (select c1 from t_l_nt7syv order by c1 limit 1 offset 6)
+                         as c8
+                    from 
+                      t_cnt0yv2e as ref_7
+                    where (ref_5.c6 is not NULL))) limit 1))
+           limit 1)) & ref_3.c2) as signed)) as c1, 
+    count(
+    cast(replace(
+      cast(ref_3.c3 as char), 
+      cast(upper(
+        cast(ref_3.c3 as char)) as char), 
+      cast(cast(nullif(
+        ref_3.c3, 
+        ref_3.c3
+        ) as char) as char)) as char)) as c2, 
+    min(
+    cast(ref_3.c5 as signed)) as c3, 
+    max(
+    cast(ref_3.c10 as double)) as c4, 
+    min(
+    cast(case when (ref_3.c9 = 'md83ho_') then (ref_3.c2 & ref_3.c6) else (select min(c1) from t_l_nt7syv)
+         end
+       as signed)) as c5, 
+    avg(
+    cast(ref_3.c1 as signed)) as c6, 
+    sum(
+    cast(ref_3.c5 as signed)) as c7, 
+    max(
+    cast(ref_3.c5 as signed)) as c8
+  from 
+    t_l_nt7syv as ref_3
+  where 0<>0
+  group by ref_3.c1 limit 89), 
+cte_2 AS (select  
+    count(
+    cast((cast(null as signed) - (select sum(c1) from t_l_nt7syv)
+        ) as char)) as c0, 
+    count(
+    cast(ref_8.c_kgvz13t as double)) as c1, 
+    sum(
+    cast(case when (ref_8.c_bjs3xa is NULL) then ref_8.c_e4d55avvc else ref_8.c_y0092 end
+       as signed)) as c2, 
+    ref_8.c_bjs3xa as c3, 
+    count(
+    cast(cast(coalesce(
+      (select c3 from t_l_nt7syv order by c3 limit 1 offset 1)
+        , 
+      (select c_w3i from t_cnt0yv2e order by c_w3i limit 1 offset 4)
+        
+      ) as char) as char)) as c4
+  from 
+    t_cnt0yv2e as ref_8
+  where (1580169668 || (cast(null as double) <> 189424796))
+  group by ref_8.c_bjs3xa limit 75), 
+cte_3 AS (select  
+    count(
+    cast(ref_9.c_kgvz13t as double)) as c0, 
+    max(
+    cast(ref_9.c_y0092 as signed)) as c1, 
+    count(
+    cast(abs(
+      cast(abs(
+        cast((select sum(c_kgvz13t) from t_cnt0yv2e)
+           as double)) as double)) as double)) as c2, 
+    count(
+    cast(case when (EXISTS (
+        select  
+            ref_14.c10 as c0, 
+            (select c_ek2mf6b948 from t_cnt0yv2e order by c_ek2mf6b948 limit 1 offset 78)
+               as c1, 
+            ref_14.c11 as c2, 
+            ref_14.c8 as c3, 
+            ref_14.c6 as c4, 
+            ref_14.c4 as c5
+          from 
+            t_l_nt7syv as ref_14
+          where 1=1)) then case when (ref_9.c_kgvz13t is NULL) then length(
+          cast(ref_9.c_r28b0m4p as char)) else round(
+          cast(ref_9.c_kgvz13t as double), 
+          cast(ref_9.c_y0092 as signed)) end
+         else ref_9.c_ek2mf6b948 end
+       as signed)) as c3, 
+    max(
+    cast(round(
+      cast(ref_9.c_g as double)) as signed)) as c4, 
+    sum(
+    cast((select c0 from t_l_nt7syv order by c0 limit 1 offset 1)
+       as double)) as c5, 
+    max(
+    cast(ref_9.c_y0092 as signed)) as c6, 
+    min(
+    cast(cast(nullif(
+      (379225289 >> cast(null as signed)), 
+      case when ((select c3 from t_l_nt7syv order by c3 limit 1 offset 5)
+             not like 'h_1g%6') then (select c_ek2mf6b948 from t_cnt0yv2e order by c_ek2mf6b948 limit 1 offset 4)
+           else round(
+          cast((select sum(c0) from t_l_nt7syv)
+             as double), 
+          cast(ref_9.c_ek2mf6b948 as signed)) end
+        
+      ) as signed) as signed)) as c7, 
+    count(*) as c8, 
+    ref_9.c_bjs3xa as c9, 
+    count(*) as c10
+  from 
+    t_cnt0yv2e as ref_9
+  where (case when (ref_9.c_e4d55avvc between cast(nullif(
+            ref_9.c_y0092, 
+            ref_9.c_e4d55avvc
+            ) as signed) and ref_9.c_e4d55avvc) then (select c3 from t_l_nt7syv order by c3 limit 1 offset 1)
+           else ref_9.c_bjs3xa end
+         > (1726613253 & 1553538385))
+  group by ref_9.c_bjs3xa limit 66), 
+cte_4 AS (select  
+    min(
+    cast(subq_1.c6 as signed)) as c0, 
+    subq_1.c3 as c1, 
+    sum(
+    cast(subq_1.c8 as signed)) as c2, 
+    avg(
+    cast((select c1 from t_l_nt7syv order by c1 limit 1 offset 5)
+       as signed)) as c3
+  from 
+    (select  
+          
+            count(
+              cast(ref_15.c_ek2mf6b948 as signed)) over (partition by ref_15.c_ek2mf6b948 order by ref_15.c_g) as c0, 
+          ref_15.c_mdutdedtjq as c1, 
+          ref_15.c_r28b0m4p as c2, 
+          substr(
+            cast(ref_15.c_r28b0m4p as char), 
+            cast(ref_15.c_y0092 as signed)) as c3, 
+          ref_15.c_r28b0m4p as c4, 
+          (select count(c0) from t_l_nt7syv)
+             as c5, 
+          ref_15.c_e4d55avvc as c6, 
+          ref_15.c_bjs3xa as c7, 
+          ref_15.c_e4d55avvc as c8
+        from 
+          t_cnt0yv2e as ref_15
+        where ((ref_15.c_ek2mf6b948 between (select c_ek2mf6b948 from t_cnt0yv2e order by c_ek2mf6b948 limit 1 offset 3)
+               and ref_15.c_y0092)) 
+          and ((1522085677 >= 405940878)) limit 127) as subq_1
+  where ((EXISTS (
+      select  
+          
+            min(
+              cast(ref_16.c6 as signed)) over (partition by ref_17.c_ek2mf6b948, ref_17.c_y0092 order by ref_16.c2) as c0, 
+          ref_17.c_mdutdedtjq as c1, 
+          case when (cast(null as double) || 1282373253) then ref_16.c0 else ref_17.c_g end
+             as c2, 
+          ref_16.c1 as c3, 
+          ref_16.c0 as c4, 
+          ref_17.c_g as c5
+        from 
+          (t_l_nt7syv as ref_16
+            cross join t_cnt0yv2e as ref_17
+            )
+        where (ref_16.c1 > 73.14)))) 
+    or (0<>0)
+  group by subq_1.c3)
+select distinct 
+    count(*) as c0, 
+    ref_18.c8 as c1, 
+    min(
+    cast((ref_18.c1 + ref_18.c0) as double)) as c2, 
+    sum(
+    cast((select max(c1) from t_l_nt7syv)
+       as signed)) as c3, 
+    count(
+    cast(ref_18.c5 as signed)) as c4, 
+    count(
+    cast((select count(c_w3i) from t_cnt0yv2e)
+       as signed)) as c5
+  from 
+    t_l_nt7syv as ref_18
+  where (93.25 <=> abs(
+        cast(case when ((ref_18.c11 in (
+              select  
+                  ref_19.c_y0092 as c0
+                from 
+                  t_cnt0yv2e as ref_19
+                where 0<>0))) 
+            or (('ta9n0' < cast(null as char))) then ref_18.c6 else ref_18.c5 end
+           as signed)))
+  group by ref_18.c8;
+
+-- sql #21
+-- data: 18613 18762 0 ; level: 0
+create table t_a44y ( 
+c_peevn8 int not null ,
+c_n7s6zgdzys tinyint ,
+c_pmiq0xqi int ,
+c_h9dr540 int not null ,
+c_bae2r text ,
+c_s7a04q text ,
+c_dw int not null ,
+c_oacpezk7hi tinyint ,
+primary key(c_pmiq0xqi),
+unique(c_dw, c_peevn8)
+);
+
+-- sql #22
+-- data: 19526 19535 0 ; level: 18
+begin;
+insert into t_l_nt7syv
+select  
+    ref_0.c_g as c0, 
+    ref_1.c_ek2mf6b948 as c1, 
+    ref_3.c_kgvz13t as c2, 
+    ref_0.c_r28b0m4p as c3, 
+    (select c_ek2mf6b948 from t_cnt0yv2e order by c_ek2mf6b948 limit 1 offset 6)
+       as c4, 
+    (select count(c_w3i) from t_cnt0yv2e)
+       as c5, 
+    ref_0.c_y0092 as c6, 
+    1647751502 as c7, 
+    case when (ref_2.c_peevn8 not in (
+        (31.66 >> ref_1.c_ek2mf6b948), ref_2.c_h9dr540, round(
+          cast(ref_0.c_kgvz13t as double), 
+          cast(ref_1.c_e4d55avvc as signed)), ref_1.c_e4d55avvc)) then 1633319136 else 1369751923 end
+       as c8, 
+    'o' as c9, 
+    abs(
+      cast(ref_0.c_g as double)) as c10, 
+    (908222108 % 1=1) as c11
+  from 
+    ((t_cnt0yv2e as ref_0
+        inner join (t_cnt0yv2e as ref_1
+          left outer join t_a44y as ref_2
+          on ((1904651998 = ref_1.c_kgvz13t)))
+        on ((717819956 && ref_1.c_e4d55avvc)))
+      cross join t_cnt0yv2e as ref_3
+      )
+  where ((cast(null as signed) || abs(
+          cast(ref_0.c_kgvz13t as double)))) 
+    and (1=1) limit 134;
+create index t_bug_idx_1 on t_l_nt7syv (c0, c1, c2, c4, c5, c6, c7, c9, c10);
+alter table t_a44y add column c_r6 tinyint;
+commit;
+
+-- sql #23
+-- data: 19535 19549 0 ; level: 0
+create index t_h2_idx_1 on t_cnt0yv2e (c_ek2mf6b948, c_y0092);
+
+-- sql #25
+-- data: 20088 20342 0 ; level: 11
+create view t_xf as 
+select  
+    length(
+      cast(ref_0.c_r28b0m4p as char)) as c0, 
+    ref_0.c_bjs3xa as c1, 
+    ref_0.c_r28b0m4p as c2, 
+    ref_0.c_bjs3xa as c3, 
+    ref_0.c_e4d55avvc as c4, 
+    ref_0.c_p as c5, 
+    ref_0.c_mdutdedtjq as c6, 
+    ref_0.c_kgvz13t as c7, 
+    ref_0.c_e4d55avvc as c8
+  from 
+    t_cnt0yv2e as ref_0
+  where ((990733288 > ref_0.c_g) in (
+    select  
+          0<>0 as c0
+        from 
+          t_cnt0yv2e as ref_1
+        where (ref_1.c_e4d55avvc between ref_1.c_e4d55avvc and ref_1.c_e4d55avvc)
+      union
+      select  
+          (68.46 <= ((ref_2.c_bae2r like 'ygh_0a_3t')) 
+                and ((ref_2.c_bae2r <=> ref_2.c_bae2r))) as c0
+        from 
+          t_a44y as ref_2
+        where (ref_2.c_h9dr540 <> ( 
+          select  
+                ref_3.c_h9dr540 as c0
+              from 
+                t_a44y as ref_3
+              where (ref_3.c_s7a04q like 's%f')
+            union
+            select  
+                ref_4.c6 as c0
+              from 
+                t_l_nt7syv as ref_4
+              where 1=1
+             limit 1))));
+
+-- sql #26
+-- data: 20342 21259 0 ; level: 21
+select  
+    ref_0.c_e4d55avvc as c0, 
+    (1495441409 >> (ref_0.c_ek2mf6b948 || (select c0 from t_xf order by c0 limit 1 offset 3)
+            )) as c1, 
+    case when (39.88 > 577140757) then ref_0.c_kgvz13t else (select c_kgvz13t from t_cnt0yv2e order by c_kgvz13t limit 1 offset 4)
+         end
+       as c2, 
+    ref_0.c_e4d55avvc as c3, 
+    
+      min(
+        cast(ref_0.c_g as double)) over (partition by ref_0.c_bjs3xa, ref_0.c_w3i order by ref_0.c_mdutdedtjq) as c4, 
+    ref_0.c_w3i as c5, 
+    ref_0.c_w3i as c6, 
+    ref_0.c_bjs3xa as c7, 
+    
+      LEAD(
+        cast(ref_0.c_bjs3xa as char), 
+        34) over (partition by ref_0.c_y0092, ref_0.c_g order by ref_0.c_e4d55avvc) as c8, 
+    403825946 as c9, 
+    ref_0.c_w3i as c10
+  from 
+    t_cnt0yv2e as ref_0
+  where (1086798012 < 90.17)
+union all
+select  
+    subq_0.c5 as c0, 
+    (select count(c_bae2r) from t_a44y)
+       as c1, 
+    abs(
+      cast(subq_0.c2 as double)) as c2, 
+    subq_0.c5 as c3, 
+    subq_0.c4 as c4, 
+    (select count(c_peevn8) from t_a44y)
+       as c5, 
+    subq_0.c3 as c6, 
+    subq_0.c3 as c7, 
+    subq_0.c3 as c8, 
+    1277197208 as c9, 
+    subq_0.c3 as c10
+  from 
+    (select distinct 
+          ref_1.c_p as c0, 
+          ref_1.c_ek2mf6b948 as c1, 
+          ref_1.c_g as c2, 
+          (select c_bae2r from t_a44y order by c_bae2r limit 1 offset 5)
+             as c3, 
+          ref_1.c_kgvz13t as c4, 
+          ref_1.c_y0092 as c5
+        from 
+          t_cnt0yv2e as ref_1
+        where ((((ref_1.c_w3i not in (
+                  select  
+                      ref_2.c_bae2r as c0
+                    from 
+                      t_a44y as ref_2
+                    where (ref_2.c_pmiq0xqi < ( 
+                      select  
+                          ref_2.c_pmiq0xqi as c0
+                        from 
+                          t_l_nt7syv as ref_3
+                        where (1=1) 
+                          or ((cast(null as signed) <=> ref_3.c8)) limit 1))))) 
+                and ((EXISTS (
+                  select  
+                      ref_1.c_bjs3xa as c0, 
+                      ref_4.c1 as c1, 
+                      ref_4.c2 as c2, 
+                      ref_4.c3 as c3, 
+                      2025660955 as c4, 
+                      ref_4.c10 as c5, 
+                      ref_1.c_kgvz13t as c6, 
+                      ref_4.c5 as c7, 
+                      ref_4.c3 as c8, 
+                      ref_4.c1 as c9
+                    from 
+                      t_l_nt7syv as ref_4
+                    where 1=1
+                    order by c0, c1, c2, c3, c4, c5, c6, c7, c8, c9 desc limit 32))) >= 2041250738)) 
+          or ((ref_1.c_w3i in (
+            select  
+                ref_5.c3 as c0
+              from 
+                t_l_nt7syv as ref_5
+              where (EXISTS (
+                select  
+                    ref_6.c8 as c0, 
+                    ref_6.c4 as c1
+                  from 
+                    t_xf as ref_6
+                  where (EXISTS (
+                    select  
+                        ref_7.c9 as c0
+                      from 
+                        t_l_nt7syv as ref_7
+                      where (ref_5.c11 in (
+                        select  
+                              ref_8.c8 as c0
+                            from 
+                              t_xf as ref_8
+                            where (ref_8.c6 not in (
+                              (EXISTS (
+                                select  
+                                    ref_9.c9 as c0, 
+                                    ref_9.c3 as c1, 
+                                    ref_9.c2 as c2, 
+                                    ref_9.c11 as c3, 
+                                    ref_9.c6 as c4, 
+                                    ref_9.c9 as c5, 
+                                    ref_9.c9 as c6, 
+                                    ref_9.c2 as c7, 
+                                    ref_9.c6 as c8
+                                  from 
+                                    t_l_nt7syv as ref_9
+                                  where (664023771 && ref_8.c0))), (970183681 <> 1116501246), ((('ghsl' <=> 'ue') <=> 1=1)) 
+                                or (1=1), (ref_8.c8 = ( 
+                                select  
+                                    ref_8.c4 as c0
+                                  from 
+                                    t_xf as ref_10
+                                  where ('ia4z8m' = 'uvm7zkxwj3') limit 1))))
+                          union
+                          select  
+                              ref_11.c_y0092 as c0
+                            from 
+                              t_cnt0yv2e as ref_11
+                            where 0<>0)))))))))) as subq_0
+  where (subq_0.c1 between subq_0.c5 and cast(coalesce(
+      subq_0.c1, 
+      subq_0.c1
+      ) as signed));
+
+-- sql #27
+-- data: 21260 21652 0 ; level: 16
+create view t_hukjlqc as 
+select  
+    subq_0.c2 as c0, 
+    subq_0.c1 as c1, 
+    hex(
+      cast(subq_0.c5 as char)) as c2, 
+    subq_0.c6 as c3, 
+    abs(
+      cast(subq_0.c3 as signed)) as c4, 
+    subq_0.c1 as c5, 
+    subq_0.c5 as c6, 
+    subq_0.c6 as c7, 
+    subq_0.c3 as c8, 
+    subq_0.c0 as c9, 
+    subq_0.c0 as c10, 
+    subq_0.c2 as c11
+  from 
+    (select  
+          (select c_n7s6zgdzys from t_a44y order by c_n7s6zgdzys limit 1 offset 4)
+             as c0, 
+          ref_2.c4 as c1, 
+          ref_2.c11 as c2, 
+          ref_1.c_peevn8 as c3, 
+          ref_2.c7 as c4, 
+          upper(
+            cast('dbnaqsr4v' as char)) as c5, 
+          ref_2.c5 as c6
+        from 
+          ((t_l_nt7syv as ref_0
+              inner join t_a44y as ref_1
+              on ((ref_0.c3 is not NULL)))
+            inner join t_l_nt7syv as ref_2
+            on (((ref_1.c_peevn8 <> ( 
+                  select  
+                        ref_3.c4 as c0
+                      from 
+                        t_l_nt7syv as ref_3
+                      where (2112314973 <=> ref_0.c7)
+                    union
+                    select  
+                        ref_2.c5 as c0
+                      from 
+                        t_l_nt7syv as ref_4
+                      where ((ref_4.c8 <=> 1242038430) <> ref_2.c8)
+                     limit 1))) 
+                or ((ref_0.c5 between (select c_peevn8 from t_a44y order by c_peevn8 limit 1 offset 4)
+                     and ref_0.c11))))
+        where 1=1) as subq_0
+  where (case when (cast(null as signed) >= 211111740) then upper(
+          cast((select c3 from t_l_nt7syv order by c3 limit 1 offset 2)
+             as char)) else 'yrg' end
+         < 'jy');
+
+-- sql #28
+-- data: 21652 21896 0 ; level: 9
+insert into t_a44y
+select  
+    ref_0.c_y0092 as c0, 
+    (ref_0.c_w3i like '%') as c1, 
+    ref_3.c1 as c2, 
+    (ref_0.c_y0092 >> ref_2.c_g) as c3, 
+    ref_0.c_bjs3xa as c4, 
+    ref_2.c_r28b0m4p as c5, 
+    (ref_1.c7 >> (ref_3.c2 <=> (select c1 from t_xf order by c1 limit 1 offset 4)
+            )) as c6, 
+    (1600217908 >= ( 
+      select  
+          777927337 as c0
+        from 
+          ((t_l_nt7syv as ref_4
+              left outer join t_cnt0yv2e as ref_5
+              on (ref_4.c11 = ref_5.c_ek2mf6b948 ))
+            cross join t_l_nt7syv as ref_6
+            )
+        where ((ref_1.c7 is not NULL)) 
+          and (((ref_6.c7 > ref_6.c6)) 
+            or ((ref_4.c4 between ref_6.c1 and ref_4.c5)))
+        order by c0 desc limit 1)) as c7
+  from 
+    (((t_cnt0yv2e as ref_0
+          cross join t_xf as ref_1
+          )
+        cross join t_cnt0yv2e as ref_2
+        )
+      inner join t_hukjlqc as ref_3
+      on ((ref_2.c_w3i like 'it8%')))
+  where (cast(null as signed) <=> abs(
+        cast(ref_1.c7 as double))) limit 131;
+
+-- sql #30
+-- data: 22979 23802 0 ; level: 12
+select  
+    412741219 as c0, 
+    (select max(c0) from t_l_nt7syv)
+       as c1, 
+    
+      LEAD(
+        cast(subq_0.c4 as char), 
+        41) over (partition by subq_0.c6 order by subq_0.c1) as c2, 
+    2080176383 as c3, 
+    (342734703 - abs(
+        cast(subq_0.c3 as signed))) as c4, 
+    case when ((select sum(c_peevn8) from t_a44y)
+           between subq_0.c7 and subq_0.c7) then round(
+        cast(94.88 as double)) else subq_0.c8 end
+       as c5, 
+    (select max(c_peevn8) from t_a44y)
+       as c6, 
+    subq_0.c1 as c7, 
+    subq_0.c9 as c8
+  from 
+    (select  
+          ref_0.c_s7a04q as c0, 
+          (select c_bae2r from t_a44y order by c_bae2r limit 1 offset 88)
+             as c1, 
+          ref_0.c_n7s6zgdzys as c2, 
+          ref_0.c_dw as c3, 
+          ref_0.c_bae2r as c4, 
+          ref_0.c_bae2r as c5, 
+          case when (ref_0.c_bae2r > ( 
+              select distinct 
+                  ref_1.c_bae2r as c0
+                from 
+                  t_a44y as ref_1
+                where ((ref_0.c_dw is NULL)) 
+                  and (1=1) limit 1)) then ref_0.c_n7s6zgdzys else (ref_0.c_peevn8 = ( 
+              select  
+                    ref_2.c_pmiq0xqi as c0
+                  from 
+                    t_a44y as ref_2
+                  where ('wssc07xm3' = 'gd')
+                union
+                select  
+                    ref_3.c_ek2mf6b948 as c0
+                  from 
+                    t_cnt0yv2e as ref_3
+                  where (ref_3.c_kgvz13t <= ref_3.c_kgvz13t)
+                 limit 1)) end
+             as c6, 
+          ref_0.c_peevn8 as c7, 
+          951137859 as c8, 
+          
+            FIRST_VALUE(
+              cast(ref_0.c_bae2r as char)) over (partition by ref_0.c_peevn8 order by ref_0.c_n7s6zgdzys) as c9
+        from 
+          t_a44y as ref_0
+        where 1=1
+        order by c0, c1, c2, c3, c4, c5, c6, c7, c8, c9 asc) as subq_0
+  where (subq_0.c1 is not NULL)
+union
+select  
+    case when (ref_4.c1 <> ( 
+        select  
+              ref_5.c3 as c0
+            from 
+              t_hukjlqc as ref_5
+            where (('i8la82' like 'u_6f7eyr4') >= (cast(null as char) not like '_wsegj2m'))
+          union
+          select  
+              ref_6.c8 as c0
+            from 
+              t_xf as ref_6
+            where ((ref_6.c2 <> ( 
+                select  
+                    ref_6.c3 as c0
+                  from 
+                    t_xf as ref_7
+                  where (ref_7.c7 <=> 1=1) limit 1))) 
+              or ((508771651 <> (ref_6.c7 && cast(null as signed))))
+           limit 1)) then ref_4.c4 else ref_4.c4 end
+       as c0, 
+    11.37 as c1, 
+    (1463122392 / ('oyk9h' > 'f')) as c2, 
+    (ref_4.c11 | 65.94) as c3, 
+    ref_4.c4 as c4, 
+    cast(coalesce(
+      (select c0 from t_xf order by c0 limit 1 offset 5)
+        , 
+      (select count(c_bae2r) from t_a44y)
+        
+      ) as signed) as c5, 
+    ref_4.c4 as c6, 
+    ltrim(
+      cast('g4pmebqjt' as char)) as c7, 
+    'gv0y7t61' as c8
+  from 
+    t_hukjlqc as ref_4
+  where ('tfjj' not like 'c47wz__%6m');
+
+-- sql #31
+-- data: 23803 24147 0 ; level: 8
+select  
+  case when (
+        ROW_NUMBER() over (partition by subq_0.c9 order by subq_0.c10) is not NULL) then subq_0.c2 else subq_0.c7 end
+     as c0, 
+  subq_0.c9 as c1, 
+  abs(
+    cast(subq_0.c2 as signed)) as c2, 
+  subq_0.c7 as c3, 
+  subq_0.c4 as c4, 
+  case when 1=1 then subq_0.c8 else subq_0.c8 end
+     as c5, 
+  case when 1=1 then (193542026 | subq_0.c1) else 1667191690 end
+     as c6, 
+  upper(
+    cast(subq_0.c8 as char)) as c7, 
+  subq_0.c9 as c8
+from 
+  (select  
+        ref_0.c_n7s6zgdzys as c0, 
+        
+          max(
+            cast(13.6 as double)) over (partition by ref_0.c_bae2r order by ref_0.c_pmiq0xqi) as c1, 
+        ref_0.c_dw as c2, 
+        ref_0.c_oacpezk7hi as c3, 
+        ref_0.c_h9dr540 as c4, 
+        ref_0.c_bae2r as c5, 
+        ref_0.c_peevn8 as c6, 
+        ref_0.c_peevn8 as c7, 
+        ref_0.c_s7a04q as c8, 
+        ref_0.c_oacpezk7hi as c9, 
+        ref_0.c_h9dr540 as c10, 
+        (select c5 from t_xf order by c5 limit 1 offset 4)
+           as c11
+      from 
+        t_a44y as ref_0
+      where 0<>0 limit 122) as subq_0
+where ((subq_0.c8 >= ( 
+    select  
+        ref_1.c3 as c0
+      from 
+        t_l_nt7syv as ref_1
+      where 0<>0 limit 1))) 
+  and ((round(
+      cast(case when ((subq_0.c1 <=> 730391132)) 
+          or ((subq_0.c7 between subq_0.c6 and subq_0.c10)) then subq_0.c1 else subq_0.c1 end
+         as double)) between (select c_ek2mf6b948 from t_cnt0yv2e order by c_ek2mf6b948 limit 1 offset 1)
+       and subq_0.c2))
+order by c0, c1, c2, c3, c4, c5, c6, c7, c8 desc limit 73;
+
+-- sql #32
+-- data: 24148 24655 0 ; level: 11
+select  
+    min(
+    cast(abs(
+      cast((ref_0.c8 + ref_0.c10) as double)) as double)) as c0, 
+    avg(
+    cast(ref_0.c6 as signed)) as c1, 
+    min(
+    cast(abs(
+      cast(ref_0.c2 as double)) as double)) as c2, 
+    ref_2.c_n7s6zgdzys as c3
+  from 
+    ((t_l_nt7syv as ref_0
+        left outer join t_a44y as ref_1
+        on (ref_0.c3 = ref_1.c_bae2r ))
+      cross join t_a44y as ref_2
+      )
+  where (replace(
+      cast(ref_0.c3 as char), 
+      cast(ref_2.c_s7a04q as char), 
+      cast(ref_1.c_s7a04q as char)) is NULL)
+  group by ref_2.c_n7s6zgdzys
+union
+select  
+    max(
+    cast(case when (cast(null as signed) = (EXISTS (
+            select  
+                ref_4.c5 as c0, 
+                ref_4.c2 as c1, 
+                ref_4.c4 as c2, 
+                ref_4.c3 as c3, 
+                ref_4.c5 as c4
+              from 
+                t_xf as ref_4
+              where (EXISTS (
+                select  
+                    ref_3.c_peevn8 as c0, 
+                    ref_3.c_dw as c1, 
+                    ref_5.c_oacpezk7hi as c2, 
+                    ref_5.c_bae2r as c3, 
+                    ref_5.c_oacpezk7hi as c4, 
+                    1712314279 as c5, 
+                    ref_4.c3 as c6, 
+                    ref_4.c6 as c7, 
+                    ref_5.c_bae2r as c8, 
+                    ref_5.c_peevn8 as c9
+                  from 
+                    t_a44y as ref_5
+                  where (ref_5.c_s7a04q like 'kkji_%8vu') limit 120))
+              order by c0, c1, c2, c3, c4 asc limit 155))) then 62.23 else (cast(null as double) % 298527713) end
+       as double)) as c0, 
+    ref_3.c_pmiq0xqi as c1, 
+    min(
+    cast(abs(
+      cast(31.71 as double)) as double)) as c2, 
+    max(
+    cast(ref_3.c_dw as signed)) as c3
+  from 
+    t_a44y as ref_3
+  where (case when 1=1 then ref_3.c_pmiq0xqi else (select c_ek2mf6b948 from t_cnt0yv2e order by c_ek2mf6b948 limit 1 offset 4)
+         end
+       between ref_3.c_peevn8 and case when (ref_3.c_bae2r like 'e1e%55nf_') then ref_3.c_peevn8 else ref_3.c_pmiq0xqi end
+      )
+  group by ref_3.c_pmiq0xqi
+ limit 3;
+
+-- sql #34
+-- data: 24946 25561 0 ; level: 20
+insert into t_a44y
+select  
+    case when (subq_0.c3 in (
+        select  
+              ref_3.c_y0092 as c0
+            from 
+              t_cnt0yv2e as ref_3
+            where (237985498 <=> ref_3.c_g)
+          union
+          select  
+              ref_4.c1 as c0
+            from 
+              ((t_hukjlqc as ref_4
+                  cross join t_xf as ref_5
+                  )
+                left outer join t_xf as ref_6
+                on ((ref_6.c8 < ( 
+                    select  
+                        ref_4.c10 as c0
+                      from 
+                        t_l_nt7syv as ref_7
+                      where (86718089 > 100.49) limit 1))))
+            where (1551269479 != (ref_6.c4 = ( 
+                  select  
+                        ref_5.c4 as c0
+                      from 
+                        t_xf as ref_8
+                      where (ref_4.c1 || (1438932286 >= ((cast(null as signed) XOR 47.28) XOR (336415550 || 910318306))))
+                    union all
+                    select  
+                        ref_5.c4 as c0
+                      from 
+                        t_l_nt7syv as ref_9
+                      where (EXISTS (
+                        select  
+                            ref_10.c9 as c0, 
+                            ref_10.c3 as c1, 
+                            ref_10.c11 as c2, 
+                            ref_9.c8 as c3, 
+                            ref_6.c5 as c4, 
+                            ref_10.c10 as c5, 
+                            ref_4.c0 as c6, 
+                            ref_10.c6 as c7
+                          from 
+                            t_l_nt7syv as ref_10
+                          where (ref_6.c8 between ref_6.c8 and ref_10.c4)))
+                     limit 1))))) then subq_0.c2 else subq_0.c2 end
+       as c0, 
+    (cast(null as double) || 58.35) as c1, 
+    
+      count(
+        cast(8.34 as double)) over (partition by subq_0.c3 order by subq_0.c2) as c2, 
+    subq_0.c2 as c3, 
+    (select c1 from t_xf order by c1 limit 1 offset 1)
+       as c4, 
+    'riepf' as c5, 
+    subq_0.c1 as c6, 
+    ('ngof790w' <=> 'n4') as c7
+  from 
+    (select distinct 
+          ref_0.c4 as c0, 
+          (select c4 from t_l_nt7syv order by c4 limit 1 offset 2)
+             as c1, 
+          ref_0.c9 as c2, 
+          ref_0.c9 as c3
+        from 
+          t_hukjlqc as ref_0
+        where ((select c4 from t_xf order by c4 limit 1 offset 3)
+               < (EXISTS (
+              select  
+                  ref_1.c3 as c0, 
+                  ref_1.c7 as c1, 
+                  ref_1.c1 as c2, 
+                  ref_0.c10 as c3, 
+                  ref_0.c11 as c4
+                from 
+                  t_xf as ref_1
+                where (EXISTS (
+                  select  
+                      (select count(c0) from t_l_nt7syv)
+                         as c0, 
+                      (select c4 from t_xf order by c4 limit 1 offset 6)
+                         as c1, 
+                      ref_2.c7 as c2, 
+                      ref_2.c3 as c3, 
+                      ref_2.c10 as c4, 
+                      ref_2.c6 as c5
+                    from 
+                      t_hukjlqc as ref_2
+                    where (ref_1.c2 not like '_z'))))))
+        order by c0, c1, c2, c3 asc) as subq_0
+  where (56.30 && 88.24) limit 7;
+
+-- sql #35
+-- data: 25562 25905 0 ; level: 8
+insert into t_a44y
+select  
+    case when 0<>0 then 910249286 else (case when (subq_0.c3 is NULL) then (select c7 from t_l_nt7syv order by c7 limit 1 offset 5)
+             else (select sum(c4) from t_xf)
+             end
+           >> (657751316 & case when 1=1 then 88.52 else cast(null as double) end
+            )) end
+       as c0, 
+    (('vb9n6' > cast(nullif(
+            cast(null as char), 
+            subq_0.c3
+            ) as char))) 
+      and ((subq_0.c2 not in (
+        select  
+            ref_3.c8 as c0
+          from 
+            t_l_nt7syv as ref_3
+          where (ref_3.c4 != ref_3.c8)))) as c1, 
+    53225327 as c2, 
+    414072743 as c3, 
+    subq_0.c3 as c4, 
+    subq_0.c3 as c5, 
+    1689995812 as c6, 
+    (subq_0.c3 = 'wz') as c7
+  from 
+    (select  
+          (0<>0 = ref_0.c10) as c0, 
+          ref_1.c6 as c1, 
+          661526910 as c2, 
+          ref_1.c2 as c3, 
+          (ref_1.c7 != 1221796248) as c4
+        from 
+          (t_l_nt7syv as ref_0
+            inner join t_xf as ref_1
+            on (ref_0.c3 = ref_1.c1 ))
+        where (612370497 in (
+          select distinct 
+              ref_2.c8 as c0
+            from 
+              t_l_nt7syv as ref_2
+            where 0<>0)) limit 191) as subq_0
+  where (1679549633 != 920369999) limit 137;
+
+-- sql #36
+-- data: 25905 25984 0 ; level: 3
+create table t_q as 
+select  
+    ref_0.c_y0092 as c0, 
+    ref_0.c_r28b0m4p as c1, 
+    ref_0.c_r28b0m4p as c2, 
+    ref_0.c_mdutdedtjq as c3, 
+    ref_0.c_ek2mf6b948 as c4, 
+    ref_0.c_ek2mf6b948 as c5
+  from 
+    t_cnt0yv2e as ref_0
+  where ((select count(c3) from t_l_nt7syv)
+       like 'g4%');
+
+-- sql #37
+-- data: 25984 27016 0 ; level: 11
+insert into t_q (c0, c1, c2, c3, c4, c5) values 
+(536298323, case when (EXISTS (
+    select  
+        ref_0.c5 as c0, 
+        ref_0.c7 as c1, 
+        ref_0.c1 as c2, 
+        ref_0.c4 as c3, 
+        1378226355 as c4, 
+        ref_0.c4 as c5, 
+        cast(coalesce(
+          ref_0.c3, 
+          ref_0.c2
+          ) as char) as c6
+      from 
+        t_xf as ref_0
+      where (ref_0.c4 <=> ref_0.c8))) then substr(
+    cast('m6n6_8qgn' as char), 
+    cast(cast(null as signed) as signed), 
+    cast(round(
+      cast(15.77 as double), 
+      cast(341429845 as signed)) as signed)) else 'ees' end
+  , substr(
+  cast('zs913' as char), 
+  cast(1297327411 as signed)), (ltrim(
+    cast(case when (97.35 && (949466013 < ( 
+            select distinct 
+                  138000951 as c0
+                from 
+                  t_cnt0yv2e as ref_1
+                where (ref_1.c_ek2mf6b948 <> ref_1.c_kgvz13t)
+              union
+              select distinct 
+                  ref_2.c8 as c0
+                from 
+                  t_l_nt7syv as ref_2
+                where 0<>0
+               limit 1))) then 'tik7pn' else 'd2bjq' end
+       as char)) like '%'), coalesce((select count(c1) from t_xf)
+  , 2120051384), coalesce(case when 0<>0 then abs(
+    cast(2103316404 as signed)) else 1154182747 end
+  , 1501911814)), 
+(1460842748, case when (((383695716 % ((1095575688 > 395753168)) 
+          and ((5719278 <= ( 
+            select  
+                1964439521 as c0
+              from 
+                t_a44y as ref_3
+              where 1=1 limit 1)))) ^ 182348287) between 1136023537 and cast(null as signed)) then cast(coalesce(
+    upper(
+      cast('f9' as char)), 
+    (select c3 from t_l_nt7syv order by c3 limit 1 offset 1)
+      
+    ) as char) else 'g' end
+  , trim(
+  cast(trim(
+    cast(quote(
+      cast((select c1 from t_xf order by c1 limit 1 offset 42)
+         as char)) as char)) as char)), (case when (678482133 = ( 
+        select  
+            ref_4.c4 as c0
+          from 
+            t_hukjlqc as ref_4
+          where (480989542 != ref_4.c3) limit 1)) then (select c_w3i from t_cnt0yv2e order by c_w3i limit 1 offset 5)
+         else 'qx_7' end
+       <= 'h7m4l34l'), coalesce(abs(
+  cast(cast(null as signed) as signed)), 1625424784), 1880451415), 
+(139069302, '_y', (cast(nullif(
+    1604719971, 
+    615776035
+    ) as signed) & (round(
+      cast(80.63 as double), 
+      cast(1977461920 as signed)) - (((370162279 not in (
+          select  
+              1081968528 as c0
+            from 
+              t_cnt0yv2e as ref_5
+            where (cast(null as double) >= 1440606861)
+            order by c0 asc))) 
+        or (((1534950903 >= 238455549)) 
+          or ((('pjhyqu2' like 'julpvw3e%')) 
+            and (1=1))) + 70.86))), 0<>0, coalesce(length(
+  cast(cast(null as char) as char)), 741854830), coalesce(case when ('w3kedl' like '_qq6') then case when (23825534 is NULL) then cast(null as signed) else 438009399 end
+     else (select avg(c4) from t_xf)
+     end
+  , 588309926));
+
+-- sql #39
+-- data: 27273 27290 0 ; level: 0
+create index t_a2efhn_idx_1 on t_a44y (c_peevn8, c_n7s6zgdzys, c_pmiq0xqi, c_h9dr540, c_dw, c_oacpezk7hi);
+
+-- sql #40
+-- data: 27290 27304 0 ; level: 0
+create index t_ku8j_idx_1 on t_a44y (c_n7s6zgdzys, c_pmiq0xqi, c_h9dr540, c_dw, c_oacpezk7hi);
+
+-- error occurred after next sql (#41)
+-- data: 27304 27994 0 ; level: 16
+select  
+    ltrim(
+      cast('hu0dq' as char)) as c0, 
+    subq_0.c1 as c1, 
+    subq_0.c1 as c2, 
+    subq_0.c0 as c3, 
+    quote(
+      cast((case when (subq_0.c0 > ( 
+            select  
+                  subq_0.c0 as c0
+                from 
+                  t_xf as ref_1
+                where ((1611715269 || (subq_0.c0 not in (
+                        select  
+                            ref_2.c6 as c0
+                          from 
+                            t_hukjlqc as ref_2
+                          where (456204932 >= 1558635380))))) 
+                  and ((ref_1.c0 XOR 698383778))
+              union
+              select distinct 
+                  subq_0.c0 as c0
+                from 
+                  t_xf as ref_3
+                where (ref_3.c4 > ( 
+                  select  
+                        (select c0 from t_q order by c0 limit 1 offset 2)
+                           as c0
+                      from 
+                        t_xf as ref_4
+                      where (ref_4.c0 not in (
+                        select distinct 
+                              cast(null as signed) as c0
+                            from 
+                              t_cnt0yv2e as ref_5
+                            where 0<>0
+                          union
+                          select  
+                              ref_6.c8 as c0
+                            from 
+                              t_l_nt7syv as ref_6
+                            where (ref_6.c6 is NULL)))
+                    union
+                    select  
+                        ref_7.c_ek2mf6b948 as c0
+                      from 
+                        t_cnt0yv2e as ref_7
+                      where ('kxeowsw' <=> 'pc1em')
+                     limit 1))
+               limit 1)) then 1548290197 else (select c8 from t_l_nt7syv order by c8 limit 1 offset 1)
+             end
+           * 1795800498) as char)) as c4, 
+    case when ('rh__' like '_k%o%0rqpc') then subq_0.c0 else subq_0.c0 end
+       as c5, 
+    subq_0.c0 as c6
+  from 
+    (select  
+          ref_0.c2 as c0, 
+          ref_0.c1 as c1
+        from 
+          t_hukjlqc as ref_0
+        where (693631398 <> ref_0.c5)) as subq_0
+  where 0<>0
+union
+select  
+    'et' as c0, 
+    ref_8.c3 as c1, 
+    ref_8.c10 as c2, 
+    'gjjv' as c3, 
+    '_0_m' as c4, 
+    case when (ref_8.c0 in (
+        select  
+            ref_9.c_peevn8 as c0
+          from 
+            t_a44y as ref_9
+          where ('gtmw514i' <=> ref_9.c_s7a04q))) then ref_8.c2 else case when (ref_8.c11 >= 74.90) then ref_8.c2 else ref_8.c6 end
+         end
+       as c5, 
+    ref_8.c2 as c6
+  from 
+    t_hukjlqc as ref_8
+  where ('j3cbr6rlrq' like '_7g2')
+ limit 3;
+
+
